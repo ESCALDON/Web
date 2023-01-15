@@ -5,591 +5,823 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datos de las peliculas</title>
+    <!-- Enlazamos el css y el bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+    <link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
 </head>
-<body>
+<body class="m-2">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <nav></nav>
 
-    <div>
-        <!-- Aqui tenemos la primera película Top Gun con el titulo y un breve resumen-->
-        <h1>Top gun: Maverick</h1>
+    <div class="">
+        <div class="">
+            <!-- Aqui tenemos la primera película Top Gun con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center" >Top gun: Maverick</h1>
+            
+            <p>
+            <strong>Top Gun: Maverick:</strong> es una película de acción y drama estadounidense de 2022. Secuela de la película de <strong>1986 Top Gun.</strong> Se estrenó el 27 de mayo de 2022 en <strong>Estados Unidos.</strong> La cinta fue aclamada por la crítica, y muchos la calificaron como mejor que la original. Ganó el premio a la Mejor película por <strong>el National Board of Review</strong> y también fue nombrada una de las diez mejores películas de 2022 por el <strong>American Film Institute.</strong> La película también recibió muchos otros premios, incluyendo nominaciones para el <strong>Globo de Oro</strong> a la mejor película dramática y el Premio de la Crítica Cinematográfica a la mejor película.
+            </p>
+
+            <!-- Aquí esta el director de la película Top Gun-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/Joseph-Kosinski.jpg" alt="joseph kosinski" width="250" height="300">
+                <p>Esta película esta dirigida por joseph kosinski</p>
+            </div>
+
+            <!-- Aquí esta el reparto-->
+            <h2 class="text-center"> Reparto </h2> 
+            <ul>
+                <div class="Container RepartoPelicula">
+                    <div class="row g-2">
+                        <!-- Primero del reparto-->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Tom cruise</li>
+                                <p>Como el capitán Pete "Maverick" Mitchell, un instructor de vuelo. Un piloto experimentado</p>
+                                <img src="IMG/Tom Cruise.jpg" alt="Tom Cruise" width="250" height="300">
+                            </div>    
+                        </div>
+
+                        <!-- Segundo del reparto-->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Miles Teller</li>
+                                <p>Como Bradley "Rooster" bradshaw, un piloto aprendiz y el hijo del fallecido compañero de Maverick.</p>
+                                <img src="IMG/Miles Teller.jpg" alt="Miles Teller" width="250" height="300">
+                            </div>
+                        </div>
+
+                        <!-- Tercero del reparto-->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Jon Hamm</li>
+                                <p>Como el vicealmirante Beau "Cyclone" Simpson, el comandante de las Fuerzas Aéreas Navales.</p>
+                                <img src="IMG/Jon Hamm.jpg" alt="Jon Hamm" width="250" height="300">
+                            </div>
+                        </div>
+
+                        <!-- Cuarto del reparto-->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Jennifer Connelly</li>
+                                <p>Como Penelope "Penny" Benjamin, una madre soltera y dueña de un bar.</p>
+                                <img src="IMG/Jennifer Connelly.jpg" alt="Jennifer Connelly" width="250" height="300">
+                            </div>
+                        </div>
+
+                        <!-- Quinto del reparto -->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Glen Powell</li>
+                                <p>como el teniente Jake "Hangman" Seresin, piloto de F/A-18E y candidato a la misión.</p>
+                                <img src="IMG/Glen Powell.jpg" alt="Glen Powell" width="250" height="300">
+                            </div>
+                        </div>
+
+                        <!-- Sexto del reparto -->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Monica Barbaro</li>
+                                <p>Como la teniente Natasha "Phoenix", una piloto de F/A-18F y candidata a misión.</p>
+                                <img src="IMG/Monica Barbaro.jpg" alt="Monica Barbaro" width="250" height="300">
+                            </div>
+                        </div>
+
+                        <!-- Septimo del reparto-->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Jay Ellis</li>
+                                <p>Como el teniente Reuben "Payback" Fitch, un piloto de F/A-18F y candidato a misión.</p>
+                                <img src="IMG/Jay Ellis.jpg" alt="Jay Ellis" width="250" height="300">
+                            </div>
+                        </div>
+
+                        <!-- Octava del reparto-->
+                        <div class="col ActorPelicula">
+                            <div class="p-3 border bg-light">
+                                <li class="text-center">Lewis Pullman</li>
+                                <p>Como el teniente Robert "Bob" Floyd, un piloto de F/A-18F y candidato a misión.</p>
+                                <img src="IMG/Lewis Pullman.jpg" alt="Lewis Pullman" width="250" height="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
         
-        <p>
-        <strong>Top Gun: Maverick:</strong> es una película de acción y drama estadounidense de 2022. Secuela de la película de <strong>1986 Top Gun.</strong> Se estrenó el 27 de mayo de 2022 en <strong>Estados Unidos.</strong> La cinta fue aclamada por la crítica, y muchos la calificaron como mejor que la original. Ganó el premio a la Mejor película por <strong>el National Board of Review</strong> y también fue nombrada una de las diez mejores películas de 2022 por el <strong>American Film Institute.</strong> La película también recibió muchos otros premios, incluyendo nominaciones para el <strong>Globo de Oro</strong> a la mejor película dramática y el Premio de la Crítica Cinematográfica a la mejor película.
-        </p>
-
-        <!-- Aquí esta el director de la película Top Gun-->
-        <h2> Director </h2>
-        <img src="IMG/Joseph-Kosinski.jpg" alt="joseph kosinski" width="250" height="300">
-        <p>Esta película esta dirigida por joseph kosinski</p>
-
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Tom cruise</li>
-            <p>Como el capitán Pete "Maverick" Mitchell, un instructor de vuelo.</p>
-            <img src="IMG/Tom Cruise.jpg" alt="Tom Cruise" width="250" height="300">
+        <div>
+            <!-- Aqui tenemos la segunda película Puñales por la espalda con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">Puñales por la espalda: el misterio de Glass Onion</h1>
             
-            <!-- Segundo del reparto-->
-            <li>Miles Teller</li>
-            <p>Como Bradley "Rooster" bradshaw, un piloto aprendiz y el hijo del fallecido compañero de Maverick, Nick "Goose" Bradshaw.</p>
-            <img src="IMG/Miles Teller.jpg" alt="Miles Teller" width="250" height="300">
+            <p>
+            <strong>Puñales a la espalda:</strong> es una película de misterio estadounidense de 2019. 
+            Siguiendo el estilo del género whodunit, la película sigue a una reunión familiar que salió mal, después de que la muerte del patriarca lleve a un detective maestro a investigar.<strong> Puñales a la espalda</strong> tuvo su estreno mundial en el <strong>festival internacional de Cine de toronto de 2019 el 7 de septiembre</strong>, y fue estrenada en los Estados Unidos
+            </p>
 
-            <!-- Tercero del reparto-->
-            <li>Jon Hamm</li>
-            <p>Como el vicealmirante Beau "Cyclone" Simpson, el comandante de las Fuerzas Aéreas Navales.</p>
-            <img src="IMG/Jon Hamm.jpg" alt="Jon Hamm" width="250" height="300">
+            <!-- Aquí esta el director de la película Puñales por la espaldas-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/Rian Johnson.jpg" alt="Rian Johnson" width="250" height="300">
+                <p>Esta película esta dirigida y escrita por Rian Johnson</p>
+            </div>
 
-            <!-- Cuarto del reparto-->
-            <li>Jennifer Connelly</li>
-            <p>Como Penelope "Penny" Benjamin, una madre soltera y dueña de un bar.</p>
-            <img src="IMG/Jennifer Connelly.jpg" alt="Jennifer Connelly" width="250" height="300">
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="RepartoPelicula">
 
-            <!-- Quinto del reparto -->
-            <li>Glen Powell</li>
-            <p>como el teniente Jake "Hangman" Seresin, piloto de F/A-18E y candidato a la misión.</p>
-            <img src="IMG/Glen Powell.jpg" alt="Glen Powell" width="250" height="300">
+                    <!-- Primero del reparto-->
+                    <div class="ActorPelicula">
+                        <li>Daniel Craig</li>
+                        <p>Como Benoit Blanc, detective encargado de investigar la muerte de Harlan.</p>
+                        <img src="IMG/Daniel Craig.jpg" alt="Daniel Craig" width="250" height="300">
+                    </div>
+
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPelicula">
+                        <li>Ana de Armas</li>
+                        <p>Como Marta Cabrera, la enfermera y amiga de Harlan.</p>
+                        <img src="IMG/Ana de Armas.jpg" alt="Ana de Armas" width="250" height="300">
+                    </div>
+
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPelicula">
+                        <li>Chris Evans</li>
+                        <p>Como Hugh Ransom Drysdale, el nieto de Harlan (hijo de Linda y Richard), un playboy mimado.</p>
+                        <img src="IMG/Chris Evans.jpg" alt="Chris Evans" width="250" height="300">
+                    </div>
+
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPelicula">
+                        <li>Jamie Lee Curtis</li>
+                        <p>Como Linda Drysdale, la hija mayor de Harlan y esposa de Richard. Dirige su propia compañía con ayuda de su marido.</p>
+                        <img src="IMG/Jamie Lee Curtis.jpg" alt="Jamie Lee Curtis" width="250" height="300">
+                    </div>
+
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPelicula">
+                        <li>Michael Shannon</li>
+                        <p>Walter «Walt» Thrombey, el hijo menor de Harlan y esposo de Donna. Es el encargado de manejar el negocio de venta de novelas de su padre.</p>
+                        <img src="IMG/Michael Shannon.jpeg" alt="Michael Shannon" width="250" height="300">
+                    </div>
+
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPelicula">
+                        <li>Don Johnson</li>
+                        <p>Como Richard Drysdale, el esposo de Linda y su principal apoyo en el manejo de su compañía.</p>
+                        <img src="IMG/Don Johnson.jpg" alt="Don Johnson" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPelicula">
+                        <li>Christopher Plummer</li>
+                        <p>Como Harlan Thrombey, un escritor de novelas de misterio que es hallado muerto tras celebrar su cumpleaños la noche anterior.</p>
+                        <img src="IMG/Christopher Plummer.jpg" alt="Christopher Plummer" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPelicula">
+                        <li>Toni Collette</li>
+                        <p>Como Joni Thrombey, la viuda de Neil, el hijo fallecido de Harlan y una influencer de la vida gurú.</p>
+                        <img src="IMG/Toni Collette.jpg" alt="Toni Collette" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Aqui tenemos la tercera película The Batman con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">The Batman</h1>
+
+            <p>
+            <strong>The Batman:</strong>es una película estadounidense de superhéroes, basada en el personaje homónimo creado por <strong>Bob Kane y Bill Finger para DC Comics.</strong> La película fue anunciada en 2015, Sin embargo, tras múltiples problemas personales del actor, decidió retirarse del proyecto. La cinta tenía una fecha de estreno prevista por <strong>Warner Bros.</strong> Pictures para el 25 de junio de 2021, pero fue retrasada dos veces a causa de la pandemia de <strong>COVID-19</strong>, hasta fijarse al 4 de marzo de 2022.
+            </p>
+
+            <!-- Aquí esta el director de la película The Batman-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/Matt Reeves.jpg" alt="Matt Reeves" width="250" height="300">
+                <p>Esta película esta dirigida y escrita por Matt Reeves</p>
+            </div>
+
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="RepartoPelicula">
+                    
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Robert Pattinson</li>
+                        <p>Como Bruce Wayne / Batman.</p>
+                        <img src="IMG/Robert Pattinson.jpg" alt="Robert Pattinson" width="250" height="300">
+                    </div>
+
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Zoë Kravitz</li>
+                        <p>Como Selina Kyle / Catwoman</p>
+                        <img src="IMG/Zoë Kravitz.jpg" alt="Zoë Kravitz" width="250" height="300">
+                    </div>
+
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Paul Dano</li>
+                        <p>Como Edward Nashton / Riddler</p>
+                        <img src="IMG/Paul Dano.jpg" alt="Paul Dano" width="250" height="300">
+                    </div>
+
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                    <li>Jeffrey Wright</li>
+                    <p>Como James Gordon.</p>
+                    <img src="IMG/Jeffrey Wright.jpg" alt="Jeffrey Wright" width="250" height="300">
+                    </div>
+
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>John Turturro</li>
+                        <p>Como Carmine Falcone.</p>
+                        <img src="IMG/John Turturro.jpg" alt="John Turturro" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Colin Farrell</li>
+                        <p>Como  Oswald «Oz» Cobblepot / El Pingüino.</p>
+                        <img src="IMG/Colin Farrell.jpg" alt="Colin Farrell" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Peter Sarsgaard</li>
+                        <p>Como Gil Colson</p>
+                        <img src="IMG/Peter Sarsgaard.jpg" alt="Peter Sarsgaard" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Barry Keoghan</li>
+                        <p>Como el Joker</p>
+                        <img src="IMG/Barry Keoghan.jpg" alt="Barry Keoghan" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Aqui tenemos la cuarta película Avatar: el sentido del agua con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">Avatar: El sentido del agua</h1>
+            <p>
+                <strong>Avatar: el sentido del agua</strong> es  una película estadounidense perteneciente al género del cine épico, ciencia ficción y animación, Es la primera de las cuatro secuelas planificadas de su película <strong>Avatar</strong>. Los rodajes preliminares para la película comenzaron en <strong>Manhattan Beach, California</strong> el <date>15 de agosto de 2017</date>, seguidos del rodaje simultáneo de <strong>Avatar 3 en Nueva Zelanda</strong> <date>el 25 de septiembre de 2017</date>, y concluyeron a finales de septiembre de 2020. Luego de repetidos retrasos en el calendario de estenos, <strong>Avatar: El sentido del agua </strong> estrenó en <strong>Londres</strong> <date>el 6 de diciembre de 2022</date> y se estrenó en cines en los <strong>Estados Unidos</strong> el 16 de diciembre de 2022. Los críticos elogiaron la película por sus efectos visuales y logros técnicos, aunque algunos calificaron la trama como simple y criticaron su larga duración.
+            </p>
+
+            <!-- Aquí esta el director de la película Avatar: el sentido del agua-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/James Cameron.jpg" alt="James Cameron" width="250" height="300">
+                <p>Esta película esta dirigida, escrita y coescrita por James Cameron.</p>
+            </div>
+
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="RepartoPeliculas">
+
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Sam Worthington</li>
+                        <p>Como Jake Sully, un ex-humano que se enamoró de Neytiri y se hizo amigo de los Na'vi después de convertirse en parte del programa avatar.</p>
+                        <img src="IMG/Sam Worthington.jpg" alt="Sam Worthington" width="250" height="300">
+                    </div>
+                    
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Zoe Saldaña</li>
+                        <p>Como Neytiri, la consorte de Jake, hija del jefe anterior del clan Omaticaya.</p>
+                        <img src="IMG/Zoe Saldaña.jpg" alt="Zoe Saldaña" width="250" height="300">
+                    </div>
+
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>CCH Pounder</li>
+                        <p>Como Mo'at, la líder espiritual del clan de los Omaticaya y la madre de Neytiri.</p>
+                        <img src="IMG/CCH Pounder.jpg" alt="CCH Pounder" width="250" height="300">
+                    </div>
+
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Stephen Lang</li>
+                        <p>Como o el Coronel Miles Quaritch, un humano que lideró las fuerzas de seguridad de la RDA, la organización humana que colonizó Pandora.</p>
+                        <img src="IMG/Stephen Lang.jpg" alt="Stephen Lang" width="250" height="300">
+                    </div>
+
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Cliff Curtis</li>
+                        <p>Como Tonowari, el líder del clan de las personas de los arrecifes, los Metkayina.</p>
+                        <img src="IMG/Cliff Curtis.jpg" alt="Cliff Curtis" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Sigourney Weaver</li>
+                        <p>Como Kiri, la hija adolescente adoptiva de Jake y Neytiri.</p>
+                        <img src="IMG/Sigourney Weaver.jpg" alt="Sigourney Weaver" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Jamie Flatters</li>
+                        <p>Como Neteyam, el hijo mayor de Jake y Neytiri.</p>
+                        <img src="IMG/Jamie Flatters.jpg" alt="Jamie Flatters" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Britain Dalton</li>
+                        <p>Como Lo'ak, el segundo hijo de Jake y Neytiri.</p>
+                        <img src="IMG/Britain Dalton.jpg" alt="Britain Dalton" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Aqui tenemos la quinta película The Northman con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">The Northman</h1>
+            <p>
+                <strong>The Northman</strong> es una película de suspenso y drama histórico épico estadounidense-británica. Ambientada a principios del siglo x en Islandia, está protagonizada por Alexander Skarsgård como el príncipe vikingo Amleth, junto a Nicole Kidman, Anya Taylor-Joy, Björk, Ralph Ineson, Ethan Hawke y Willem Dafoe. La trama sigue al personaje de Amleth, quien emprende una misión vengativa después del asesinato de su padre. El estreno de la película fue el 28 de marzo de 2022, de la mano de la productora cinematográfica independiente Focus Features.
+            </p>
+
+            <!-- Aquí esta el director de la película The Northman-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/Robert Eggers.jpg" alt="Robert Eggers" width="250" height="300">
+                <p>Esta película esta dirigida por Robert Eggers.</p>
+            </div>
+
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="RepartoPeliculas">
+
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Alexander Skarsgård</li>
+                        <p>Como Amleth</p>
+                        <img src="IMG/Alexander Skarsgård.jpg" alt="Alexander Skarsgård" width="250" height="300">
+                    </div>
+                    
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Nicole Kidman</li>
+                        <p>Como la reina Gudrun.</p>
+                        <img src="IMG/Nicole Kidman.jpg" alt="Nicole Kidman" width="250" height="300">
+                    </div>
+
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Claes Bang</li>
+                        <p>Como Fjölnir.</p>
+                        <img src="IMG/Claes Bang.jpg" alt="Claes Bang" width="250" height="300">
+                    </div>
+
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Anya Taylor-Joy</li>
+                        <p>Como Olga.</p>
+                        <img src="IMG/Anya Taylor-Joy.jpg" alt="Anya Taylor-Joy" width="250" height="300">
+                    </div>
+
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Ethan Hawke</li>
+                        <p>Como el rey Horvendill.</p>
+                        <img src="IMG/Ethan Hawke.jpg" alt="Ethan Hawke" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Willem Dafoe</li>
+                        <p>Como Heimir.</p>
+                        <img src="IMG/Willem Dafoe.jpg" alt="Willem Dafoe" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Murray McArthur</li>
+                        <p>Como Hakon.</p>
+                        <img src="IMG/Murray McArthur.jpg" alt="Murray McArthur" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Ingvar Eggert Sigurðsson</li>
+                        <p>Como el brujo.</p>
+                        <img src="IMG/Ingvar Eggert Sigurðsson.jpg" alt="Ingvar Eggert Sigurðsson" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Aqui tenemos la sexta película Todo a la vez en todas partes con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">Todo a la vez en todas partes</h1>
+
+            <p>
+                <strong>Todo a la vez en todas partes</strong>es una película estadounidense de comedia dramática absurda de acción y ciencia ficción de 2022. La película se estrenó en el <strong>South by Southwest</strong> el 11 de marzo de 2022. Comenzó un estreno limitado en cines en los <strong>Estados Unidos </strong>25 de marzo de 2022, antes de estrenarse el 8 de abril de 2022 por A24. La película recibió elogios de parte de la crítica y recaudó más de <strong>$103 millones en todo el mundo.</strong> , convirtiéndose en la primera película de A24 en cruzar la marca de los 100 millones de dólares y superando a Hereditary (2018) como su película más taquillera.
+                <strong>National Board of Review</strong> y<strong>el American Film Institute</strong> la nombraron una de las diez mejores películas de 2022. La película recibió seis nominaciones en la 80.ª edición de <strong>Globos de Oro,</strong> incluyendo Mejor Película - Musical o Comedia y Mejor Director, ganando Mejor actriz - Comedia o musical y Mejor actor de reparto, y 14 nominaciones principales en los Premios de la Crítica Cinematográfica, incluyendo Mejor Película.
+            </p>
+
+            <!-- Aquí esta el director de la película Todo a la vez en todas partes-->
+            <div class="DirectorPelicula text-centers">
+                <h2> Director </h2>
+                <img src="IMG/Dan Kwan.jpg" alt="Dan Kwan" width="250" height="300">
+                <p>Esta película esta dirigida por Dan Kwan.</p>
+            </div>
+
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="RepartoPeliculas">
+
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Michelle Yeoh</li>
+                        <p>Como Evelyn Wang, una mujer chino-estadounidense que existe en múltiples universos.</p>
+                        <img src="IMG/Michelle Yeoh.jpg" alt="Michelle Yeoh" width="250" height="300">
+                    </div>
+                    
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Ke Huy Quan</li>
+                        <p>Como Waymond Wang, esposo de Evelyn.</p>
+                        <img src="IMG/Ke Huy Quan.jpg" alt="Ke Huy Quan" width="250" height="300">
+                    </div>
+
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Stephanie Hsu</li>
+                        <p>Como Joy Wang / Jobu Tupaki, hija de Evelyn.</p>
+                        <img src="IMG/Stephanie Hsu.jpg" alt="Stephanie Hsu" width="250" height="300">
+                    </div>
+
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>James Hong</li>
+                        <p>Como Gong Gong, el padre de Evelyn.</p>
+                        <img src="IMG/James Hong.jpg" alt="James Hong" width="250" height="300">
+                    </div>
+
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Jamie Lee Curtis</li>
+                        <p>Como Deirdre Beaubeirdra, inspectora del IRS.</p>
+                        <img src="IMG/Jamie Lee Curtis.jpg" alt="Jamie Lee Curtis" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Jenny Slate</li>
+                        <p>Como  Big Nose.</p>
+                        <img src="IMG/Jenny Slate.jpg" alt="Jenny Slate" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Harry Shum Jr</li>
+                        <p>Como Chad.</p>
+                        <img src="IMG/Harry Shum Jr.jpg" alt="Harry Shum Jr" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Tallie Medel</li>
+                        <p>Como Becky, la novia de Joy.</p>
+                        <img src="IMG/Tallie Medel.jpg" alt="Tallie Medel" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Aqui tenemos la septima película The black Phone con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">The Black Phone</h1>
             
-            <!-- Sexto del reparto -->
-            <li>Monica Barbaro</li>
-            <p>Como la teniente Natasha "Phoenix", una piloto de F/A-18F y candidata a misión.</p>
-            <img src="IMG/Monica Barbaro.jpg" alt="Monica Barbaro" width="250" height="300">
+            <p>
+                <strong>The Black Phone</strong>es una película estadounidense de terror sobrenatural.se trata de una adaptación del cuento homónimo de <strong>Joe Hill</strong>. Está protagonizada por <strong>Mason Thames</strong> en el papel de un niño secuestrado que puede comunicarse con las anteriores víctimas de su secuestrador, interpretado por <strong>Ethan Hawke</strong>.
+                En enero de 2020, <strong>Derrickson</strong> anunció su salida de la dirección de <strong>Doctor Strange in the Multiverse of Madness </strong> debido a diferencias creativas con <strong>Marvel Studios.</strong> Como resultado, decidió asociarse con Cargill para realizar <strong>The Black Phone.</strong> El largometraje se anunció en octubre de 2020 y el rodaje comenzó en febrero de 2021.
+                <strong>The Black Phone</strong> tuvo su estreno mundial en el <strong>Fantastic Fest</strong> el 25 de septiembre de 2021. Estaba previsto que Universal Pictures se estrene en cines el 4 de febrero de 2022, pero debido a falta de tiempo acabó siendo atrasada al 24 de junio de 2022. La película recibió críticas generalmente positivas, con elogios por su fidelidad al material original, la dirección de Derrickson y la actuación de Hawke.
+            </p>
 
-            <!-- Septimo del reparto-->
-            <li>Jay Ellis</li>
-            <p>Como el teniente Reuben "Payback" Fitch, un piloto de F/A-18F y candidato a misión.</p>
-            <img src="IMG/Jay Ellis.jpg" alt="Jay Ellis" width="250" height="300">
+            <!-- Aquí esta el director de la película The Black Phone-->
+            <div class="DirectorPelicula text-centers">
+                <h2> Director </h2>
+                <img src="IMG/Scott Derrickson.jpg" alt="Scott Derrickson" width="250" height="300">
+                <p>Esta película esta dirigida por Scott Derrickson.</p>
+            </div>
 
-            <!-- Octava del reparto-->
-            <li>Lewis Pullman</li>
-            <p>Como el teniente Robert "Bob" Floyd, un piloto de F/A-18F y candidato a misión.</p>
-            <img src="IMG/Lewis Pullman.jpg" alt="Lewis Pullman" width="250" height="300">
-            
-        </ul>
-    </div>
-    
-    <div>
-        <!-- Aqui tenemos la segunda película Puñales por la espalda con el titulo y un breve resumen-->
-        <h1>Puñales por la espalda: el misterio de Glass Onion</h1>
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="Repartoeliculas">
+
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Mason Thames</li>
+                        <p>Como Finney Blake: El hermano de Gwen y el hijo del Sr. Blake.</p>
+                        <img src="IMG/Mason Thames.jpg" alt="Mason Thames" width="250" height="300">
+                    </div>
+                    
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Madeleine McGraw</li>
+                        <p>Como Gwendolyn Blake: La hermana de Finney y la hija del Sr. Blake.</p>
+                        <img src="IMG/Madeleine McGraw.jpg" alt="Madeleine McGraw" width="250" height="300">
+                    </div>
+
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Ethan Hawke</li>
+                        <p>Como Albert / "El Raptor": Un secuestrador de niños y asesino en serie.</p>
+                        <img src="IMG/Ethan Hawke.jpg" alt="Ethan Hawke" width="250" height="300">
+                    </div>
+
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Jeremy Davies</li>
+                        <p>Como el Terrence Blake: El padre alcohólico de Finney y Gwen.</p>
+                        <img src="IMG/Jeremy Davies.jpg" alt="Jeremy Davies" width="250" height="300">
+                    </div>
+
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>James Ransone</li>
+                        <p>Como Max: El hermano de Albert "El Raptor".</p>
+                        <img src="IMG/James Ransone.jpg" alt="James Ransone" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>E. Roger Mitchell</li>
+                        <p>Como el detective Wright.</p>
+                        <img src="IMG/E. Roger Mitchell.jpg" alt="E. Roger Mitchell" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Troy Rudeseal</li>
+                        <p>Como Detective Miller.</p>
+                        <img src="IMG/Troy Rudeseal.jpg" alt="Troy Rudeseal" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Miguel Cazarez Mora</li>
+                        <p>Como Robin Arellano.</p>
+                        <img src="IMG/Miguel Cazarez Mora.jpg" alt="Miguel Cazarez Mora" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
         
-        <p>
-        <strong>Puñales a la espalda:</strong> es una película de misterio estadounidense de 2019. 
-        Siguiendo el estilo del género whodunit, la película sigue a una reunión familiar que salió mal, después de que la muerte del patriarca lleve a un detective maestro a investigar.<strong> Puñales a la espalda</strong> tuvo su estreno mundial en el <strong>festival internacional de Cine de toronto de 2019 el 7 de septiembre</strong>, y fue estrenada en los Estados Unidos
-        </p>
-
-        <!-- Aquí esta el director de la película Puñales por la espaldas-->
-        <h2> Director </h2>
-        <img src="IMG/Rian Johnson.jpg" alt="Rian Johnson" width="250" height="300">
-        <p>Esta película esta dirigida y escrita por Rian Johnson</p>
-
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Daniel Craig</li>
-            <p>Como Benoit Blanc, detective encargado de investigar la muerte de Harlan.</p>
-            <img src="IMG/Daniel Craig.jpg" alt="Daniel Craig" width="250" height="300">
+        <div>
+            <!-- Aqui tenemos la octava película Nope con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">Nope</h1>
             
-            <!-- Segundo del reparto-->
-            <li>Ana de Armas</li>
-            <p>Como Marta Cabrera, la enfermera y amiga de Harlan.</p>
-            <img src="IMG/Ana de Armas.jpg" alt="Ana de Armas" width="250" height="300">
+            <p>
+                Nope es una película de terror y ciencia ficción estadounidense de 2022, Está protagonizada por Daniel Kaluuya, Keke Palmer, Steven Yeun, Michael Wincott y Brandon Perea y sigue a dos hermanos propietarios de un rancho que intentan capturar evidencia de un objeto volador no identificado. La filmación tuvo lugar durante el otoño de 2021 en el norte del condado de Los Ángeles y terminó en noviembre. Se rumoreaba que el título era un acrónimo de "Not Of Planet Earth" o "Not Our Planet Earth" según el póster de la película, pero Peele reveló más tarde que el título se refiere a la reacción que esperaba provocar en el público.
+            </p>
 
-            <!-- Tercero del reparto-->
-            <li>Chris Evans</li>
-            <p>Como Hugh Ransom Drysdale, el nieto de Harlan (hijo de Linda y Richard), un playboy mimado.</p>
-            <img src="IMG/Chris Evans.jpg" alt="Chris Evans" width="250" height="300">
+            <!-- Aquí esta el director de la película Nope-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/Jordan Peele.jpg" alt="Jordan Peele" width="250" height="300">
+                <p>Esta película esta dirigida por Jordan Peele.</p>
+            </div>
 
-            <!-- Cuarto del reparto-->
-            <li>Jamie Lee Curtis</li>
-            <p>Como Linda Drysdale, la hija mayor de Harlan y esposa de Richard. Dirige su propia compañía con ayuda de su marido.</p>
-            <img src="IMG/Jamie Lee Curtis.jpg" alt="Jamie Lee Curtis" width="250" height="300">
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="RepartoPeliculas">
 
-            <!-- Quinto del reparto -->
-            <li>Michael Shannon</li>
-            <p>Walter «Walt» Thrombey, el hijo menor de Harlan y esposo de Donna. Es el encargado de manejar el negocio de venta de novelas de su padre.</p>
-            <img src="IMG/Michael Shannon.jpeg" alt="Michael Shannon" width="250" height="300">
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Daniel Kaluuya</li>
+                        <p>Como Otis Jr. "OJ" Haywood, hijo de Otis.</p>
+                        <img src="IMG/Daniel Kaluuya.jpg" alt="Daniel Kaluuya" width="250" height="300">
+                    </div>
+                    
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Keke Palmer</li>
+                        <p>Como Emerald "Em" Haywood, hija de Otis.</p>
+                        <img src="IMG/Keke Palmer.jpg" alt="Keke Palmer" width="250" height="300">
+                    </div>
+
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Steven Yeun</li>
+                        <p>Como Ricky "Jupe" Park, ex niño actor y propietario/creador del parque temático "Jupiter's Claim".</p>
+                        <img src="IMG/Steven Yeun.jpg" alt="Steven Yeun" width="250" height="300">
+                    </div>
+
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Jacob Kim</li>
+                        <p>Como Young Ricky "Jupe" Park, quien interpreta a Mikey Houston en Gordy's Home.</p>
+                        <img src="IMG/Jacob Kim.jpg" alt="Jacob Kim" width="250" height="300">
+                    </div>
+
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Brandon Perea</li>
+                        <p>Como Angel Torres, un vendedor de tecnología en Fry's Electronics.</p>
+                        <img src="IMG/Brandon Perea.jpg" alt="Brandon Perea" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Michael Wincott</li>
+                        <p>Como Antlers Holst, un reconocido director de fotografía.</p>
+                        <img src="IMG/Michael Wincott.jpg" alt="Michael Wincott" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Wrenn Schmidt</li>
+                        <p>Como Amber Park, la esposa de Jupe.</p>
+                        <img src="IMG/Wrenn Schmidt.jpg" alt="Wrenn Schmidt" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Keith David</li>
+                        <p>Como Otis Haywood Sr., el propietario del Hollywood Horses Ranch de Haywood.</p>
+                        <img src="IMG/Keith David.jpg" alt="Keith David" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Aqui tenemos la novena película Black Panther con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">Black Panther: Wakanda Forever</h1>
             
-            <!-- Sexto del reparto -->
-            <li>Don Johnson</li>
-            <p>Como Richard Drysdale, el esposo de Linda y su principal apoyo en el manejo de su compañía.</p>
-            <img src="IMG/Don Johnson.jpg" alt="Don Johnson" width="250" height="300">
+            <p>
+                <strong>Black Panther: Wakanda Forever</strong> es una película de superhéroes basada en el personaje Pantera Negra propiedad de Marvel Comics. Producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures, es la secuela de la película Black Panther (2018) y la película número 30 del Universo cinematográfico de Marvel (UCM).Los planes para la película cambiaron en agosto de 2020 cuando la estrella de Black Panther, Chadwick Boseman, falleció de cáncer de colon, y Marvel decidió no reemplazarlo en su papel de T'Challa. Se confirmó que otros miembros principales del elenco de la primera película regresarían en noviembre, y el título se anunció en mayo de 2021.
+            </p>
 
-            <!-- Septimo del reparto-->
-            <li>Christopher Plummer</li>
-            <p>Como Harlan Thrombey, un escritor de novelas de misterio que es hallado muerto tras celebrar su cumpleaños la noche anterior.</p>
-            <img src="IMG/Christopher Plummer.jpg" alt="Christopher Plummer" width="250" height="300">
+            <!-- Aquí esta el director de la película Black Panther-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/Ryan Coogler.jpg" alt="Ryan Coogler" width="250" height="300">
+                <p>Esta película esta dirigida por Ryan Coogler.</p>
+            </div>
 
-              <!-- Octavo del reparto-->
-              <li>Toni Collette</li>
-              <p>Como Joni Thrombey, la viuda de Neil, el hijo fallecido de Harlan y una influencer de la vida gurú.</p>
-              <img src="IMG/Toni Collette.jpg" alt="Toni Collette" width="250" height="300">
-        </ul>
-    </div>
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="ActorPeliculas">
 
-    <div>
-        <!-- Aqui tenemos la tercera película The Batman con el titulo y un breve resumen-->
-        <h1>The Batman</h1>
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Letitia Wright</li>
+                        <p>Como Shuri / Black Panther: La princesa de Wakanda que diseña nueva tecnología para Wakanda.</p>
+                        <img src="IMG/Letitia Wright.jpg" alt="Letitia Wright" width="250" height="300">
+                    </div>
+                    
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Lupita Nyong'o</li>
+                        <p>Como Nakia: Una miembro de los Perros de Guerra, una espía encubierta de Wakanda, de la Tribu del Río.</p>
+                        <img src="IMG/upita Nyong'o.jpg" alt="upita Nyong'o" width="250" height="300">
+                    </div>
 
-        <p>
-        <strong>The Batman:</strong>es una película estadounidense de superhéroes, basada en el personaje homónimo creado por <strong>Bob Kane y Bill Finger para DC Comics.</strong> La película fue anunciada en 2015, Sin embargo, tras múltiples problemas personales del actor, decidió retirarse del proyecto. La cinta tenía una fecha de estreno prevista por <strong>Warner Bros.</strong> Pictures para el 25 de junio de 2021, pero fue retrasada dos veces a causa de la pandemia de <strong>COVID-19</strong>, hasta fijarse al 4 de marzo de 2022.
-        </p>
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Danai Gurira</li>
+                        <p>Como Okoye: La jefa de la Dora Milaje, las fuerzas especiales de Wakanda.</p>
+                        <img src="IMG/Danai Gurira.jpg" alt="Danai Gurira" width="250" height="300">
+                    </div>
 
-        <!-- Aquí esta el director de la película The Batman-->
-        <h2> Director </h2>
-        <img src="IMG/Matt Reeves.jpg" alt="Matt Reeves" width="250" height="300">
-        <p>Esta película esta dirigida y escrita por Matt Reeves</p>
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Dominique Thorne</li>
+                        <p>Como Riri Williams / Ironheart: Una inventora genio que crea una armadura que rivaliza con la armadura de Iron Man.</p>
+                        <img src="IMG/Dominique Thorne.jpg" alt="Dominique Thorne" width="250" height="300">
+                    </div>
 
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Robert Pattinson</li>
-            <p>Como Bruce Wayne / Batman.</p>
-            <img src="IMG/Robert Pattinson.jpg" alt="Robert Pattinson" width="250" height="300">
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Winston Duke</li>
+                        <p>Como M'Baku: Un poderoso y despiadado guerrero que es el líder de la tribu montañesa de Wakanda, los Jabari.</p>
+                        <img src="IMG/Winston Duke.jpg" alt="Winston Duke" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Angela Bassett</li>
+                        <p>Como Ramonda: La Reina Madre de Wakanda que está de duelo por la muerte de su hijo T'Challa.</p>
+                        <img src="IMG/Angela Bassett.jpg" alt="Angela Bassett" width="250" height="300">
+                    </div>
+
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Ténoch Huerta</li>
+                        <p>Como Namor: El rey de Talokán, una antigua civilización de personas que habitan bajo el agua.</p>
+                        <img src="IMG/Ténoch Huerta.jpg" alt="Ténoch Huerta" width="250" height="300">
+                    </div>
+
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Florence Kasumba</li>
+                        <p>Como Ayo: Miembro y segunda al mando de la Dora Milaje.</p>
+                        <img src="IMG/Florence Kasumba.jpg" alt="Florence Kasumba" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Aqui tenemos la decima película Turning Red con el titulo y un breve resumen-->
+            <h1 class="TituloPelicula text-center">Turning Red</h1>
             
-            <!-- Segundo del reparto-->
-            <li>Zoë Kravitz</li>
-            <p>Como Selina Kyle / Catwoman</p>
-            <img src="IMG/Zoë Kravitz.jpg" alt="Zoë Kravitz" width="250" height="300">
+            <p>
+                <strong>Turning Red </strong> es una película <strong>estadounidense de comedia, de aventuras</strong> y que trata a la pubertad de una manera metafórica, animada por ordenador, producida por <strong>Pixar Animation Studios</strong> y lanzada por <strong>Walt Disney Pictures</strong>. <strong>Red</strong> se estrenó en <strong>China</strong> el 18 de febrero de 2022, y en <strong>Disney+ en Estados Unidos</strong> y demás países con la plataforma el 11 de marzo de 2022 y 10 de marzo de 2022, siendo estrenada en cines en países que no disponen de la plataforma. A mediados de marzo del año 2002, Meilin "Mei" Lee es una niña canadiense de ascendencia china de 13 años que vive en la ciudad de <strong>Toronto.</strong> Es una estudiante prodigio y tiene un séquito de amigas cercanas compuesto por <strong>Miriam, Priya y Abby</strong>.           
+            </p>
 
-            <!-- Tercero del reparto-->
-            <li>Paul Dano</li>
-            <p>Como Edward Nashton / Riddler</p>
-            <img src="IMG/Paul Dano.jpg" alt="Paul Dano" width="250" height="300">
+            <!-- Aquí esta el director de la película Turning Red-->
+            <div class="DirectorPelicula text-center">
+                <h2> Director </h2>
+                <img src="IMG/Domee Shi.jpg" alt="Domee Shi" width="250" height="300">
+                <p>Esta película esta dirigida por Domee Shi</p>
+            </div>
 
-            <!-- Cuarto del reparto-->
-            <li>Jeffrey Wright</li>
-            <p>Como James Gordon.</p>
-            <img src="IMG/Jeffrey Wright.jpg" alt="Jeffrey Wright" width="250" height="300">
+            <!-- Aquí esta el reparto-->
+            <h2> Reparto </h2>
+            <ul>
+                <div class="RepartoPeliculas">
 
-            <!-- Quinto del reparto -->
-            <li>John Turturro</li>
-            <p>Como Carmine Falcone.</p>
-            <img src="IMG/John Turturro.jpg" alt="John Turturro" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>Colin Farrell</li>
-            <p>Como  Oswald «Oz» Cobblepot / El Pingüino.</p>
-            <img src="IMG/Colin Farrell.jpg" alt="Colin Farrell" width="250" height="300">
+                    <!-- Primero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Meilin "Mei" Lee</li>
+                        <p>Como Rosalie Chiang.</p>
+                        <img src="IMG/Rosalie Chiang.jpg" alt="Rosalie Chiang" width="250" height="300">
+                    </div>
+                    
+                    <!-- Segundo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Ming Lee</li>
+                        <p>Como Sandra Oh.</p>
+                        <img src="IMG/Sandra Oh.jpg" alt="Sandra Oh" width="250" height="300">
+                    </div>
 
-            <!-- Septimo del reparto-->
-            <li>Peter Sarsgaard</li>
-            <p>Como Gil Colson</p>
-            <img src="IMG/Peter Sarsgaard.jpg" alt="Peter Sarsgaard" width="250" height="300">
+                    <!-- Tercero del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Miriam Wexler</li>
+                        <p>Como Ava Morse.</p>
+                        <img src="IMG/Ava Morse.jpg" alt="Ava Morse" width="250" height="300">
+                    </div>
 
-            <!-- Octavo del reparto-->
-            <li>Barry Keoghan</li>
-            <p>Como el Joker</p>
-            <img src="IMG/Barry Keoghan.jpg" alt="Barry Keoghan" width="250" height="300">
-        </ul>
-    </div>
+                    <!-- Cuarto del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Abby Park</li>
+                        <p>Como Hyein Park.</p>
+                        <img src="IMG/Hyein Park.jpg" alt="Hyein Park" width="250" height="300">
+                    </div>
 
-    <div>
-        <!-- Aqui tenemos la cuarta película Avatar: el sentido del agua con el titulo y un breve resumen-->
-        <h1>Avatar: El sentido del agua</h1>
-        <p>
-            <strong>Avatar: el sentido del agua</strong> es  una película estadounidense perteneciente al género del cine épico, ciencia ficción y animación, Es la primera de las cuatro secuelas planificadas de su película <strong>Avatar</strong>. Los rodajes preliminares para la película comenzaron en <strong>Manhattan Beach, California</strong> el <date>15 de agosto de 2017</date>, seguidos del rodaje simultáneo de <strong>Avatar 3 en Nueva Zelanda</strong> <date>el 25 de septiembre de 2017</date>, y concluyeron a finales de septiembre de 2020. Luego de repetidos retrasos en el calendario de estenos, <strong>Avatar: El sentido del agua </strong> estrenó en <strong>Londres</strong> <date>el 6 de diciembre de 2022</date> y se estrenó en cines en los <strong>Estados Unidos</strong> el 16 de diciembre de 2022. Los críticos elogiaron la película por sus efectos visuales y logros técnicos, aunque algunos calificaron la trama como simple y criticaron su larga duración.
-        </p>
+                    <!-- Quinto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Priya Dewan</li>
+                        <p>Como Maitreyi Ramakrishnan.</p>
+                        <img src="IMG/Maitreyi Ramakrishnan.jpg" alt="Maitreyi Ramakrishnan" width="250" height="300">
+                    </div>
+                    
+                    <!-- Sexto del reparto -->
+                    <div class="ActorPeliculas">
+                        <li>Jin Lee</li>
+                        <p>Como Orion Lee.</p>
+                        <img src="IMG/Orion Lee.jpg" alt="Orion Lee" width="250" height="300">
+                    </div>
 
-         <!-- Aquí esta el director de la película Avatar: el sentido del agua-->
-         <h2> Director </h2>
-         <img src="IMG/James Cameron.jpg" alt="James Cameron" width="250" height="300">
-         <p>Esta película esta dirigida, escrita y coescrita por James Cameron.</p>
+                    <!-- Septimo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Abuela de Mei</li>
+                        <p>Como Wai Ching Ho.</p>
+                        <img src="IMG/Wai Ching Ho.jpg" alt="Wai Ching Ho" width="250" height="300">
+                    </div>
 
-         <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Sam Worthington</li>
-            <p>Como Jake Sully, un ex-humano que se enamoró de Neytiri y se hizo amigo de los Na'vi después de convertirse en parte del programa avatar.</p>
-            <img src="IMG/Sam Worthington.jpg" alt="Sam Worthington" width="250" height="300">
-            
-            <!-- Segundo del reparto-->
-            <li>Zoe Saldaña</li>
-            <p>Como Neytiri, la consorte de Jake, hija del jefe anterior del clan Omaticaya.</p>
-            <img src="IMG/Zoe Saldaña.jpg" alt="Zoe Saldaña" width="250" height="300">
-
-            <!-- Tercero del reparto-->
-            <li>CCH Pounder</li>
-            <p>Como Mo'at, la líder espiritual del clan de los Omaticaya y la madre de Neytiri.</p>
-            <img src="IMG/CCH Pounder.jpg" alt="CCH Pounder" width="250" height="300">
-
-            <!-- Cuarto del reparto-->
-            <li>Stephen Lang</li>
-            <p>Como o el Coronel Miles Quaritch, un humano que lideró las fuerzas de seguridad de la RDA, la organización humana que colonizó Pandora.</p>
-            <img src="IMG/Stephen Lang.jpg" alt="Stephen Lang" width="250" height="300">
-
-            <!-- Quinto del reparto -->
-            <li>Cliff Curtis</li>
-            <p>Como Tonowari, el líder del clan de las personas de los arrecifes, los Metkayina.</p>
-            <img src="IMG/Cliff Curtis.jpg" alt="Cliff Curtis" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>Sigourney Weaver</li>
-            <p>Como Kiri, la hija adolescente adoptiva de Jake y Neytiri.</p>
-            <img src="IMG/Sigourney Weaver.jpg" alt="Sigourney Weaver" width="250" height="300">
-
-            <!-- Septimo del reparto-->
-            <li>Jamie Flatters</li>
-            <p>Como Neteyam, el hijo mayor de Jake y Neytiri.</p>
-            <img src="IMG/Jamie Flatters.jpg" alt="Jamie Flatters" width="250" height="300">
-
-            <!-- Octavo del reparto-->
-            <li>Britain Dalton</li>
-            <p>Como Lo'ak, el segundo hijo de Jake y Neytiri.</p>
-            <img src="IMG/Britain Dalton.jpg" alt="Britain Dalton" width="250" height="300">
-        </ul>
-    </div>
-
-    <div>
-        <!-- Aqui tenemos la quinta película The Northman con el titulo y un breve resumen-->
-        <h1>The Northman</h1>
-        <p>
-            <strong>The Northman</strong> es una película de suspenso y drama histórico épico estadounidense-británica. Ambientada a principios del siglo x en Islandia, está protagonizada por Alexander Skarsgård como el príncipe vikingo Amleth, junto a Nicole Kidman, Anya Taylor-Joy, Björk, Ralph Ineson, Ethan Hawke y Willem Dafoe. La trama sigue al personaje de Amleth, quien emprende una misión vengativa después del asesinato de su padre. El estreno de la película fue el 28 de marzo de 2022, de la mano de la productora cinematográfica independiente Focus Features.
-        </p>
-
-        <!-- Aquí esta el director de la película The Northman-->
-        <h2> Director </h2>
-        <img src="IMG/Robert Eggers.jpg" alt="Robert Eggers" width="250" height="300">
-        <p>Esta película esta dirigida por Robert Eggers.</p>
-
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Alexander Skarsgård</li>
-            <p>Como Amleth</p>
-            <img src="IMG/Alexander Skarsgård.jpg" alt="Alexander Skarsgård" width="250" height="300">
-            
-            <!-- Segundo del reparto-->
-            <li>Nicole Kidman</li>
-            <p>Como la reina Gudrun.</p>
-            <img src="IMG/Nicole Kidman.jpg" alt="Nicole Kidman" width="250" height="300">
-
-            <!-- Tercero del reparto-->
-            <li>Claes Bang</li>
-            <p>Como Fjölnir.</p>
-            <img src="IMG/Claes Bang.jpg" alt="Claes Bang" width="250" height="300">
-
-            <!-- Cuarto del reparto-->
-            <li>Anya Taylor-Joy</li>
-            <p>Como Olga.</p>
-            <img src="IMG/Anya Taylor-Joy.jpg" alt="Anya Taylor-Joy" width="250" height="300">
-
-            <!-- Quinto del reparto -->
-            <li>Ethan Hawke</li>
-            <p>Como el rey Horvendill.</p>
-            <img src="IMG/Ethan Hawke.jpg" alt="Ethan Hawke" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>Willem Dafoe</li>
-            <p>Como Heimir.</p>
-            <img src="IMG/Willem Dafoe.jpg" alt="Willem Dafoe" width="250" height="300">
-
-            <!-- Septimo del reparto-->
-            <li>Murray McArthur</li>
-            <p>Como Hakon.</p>
-            <img src="IMG/Murray McArthur.jpg" alt="Murray McArthur" width="250" height="300">
-
-            <!-- Octavo del reparto-->
-            <li>Ingvar Eggert Sigurðsson</li>
-            <p>Como el brujo.</p>
-            <img src="IMG/Ingvar Eggert Sigurðsson.jpg" alt="Ingvar Eggert Sigurðsson" width="250" height="300">
-        </ul>
-    </div>
-
-    <div>
-        <!-- Aqui tenemos la sexta película Todo a la vez en todas partes con el titulo y un breve resumen-->
-        <h1>Todo a la vez en todas partes</h1>
-
-        <p>
-            <strong>Todo a la vez en todas partes</strong>es una película estadounidense de comedia dramática absurda de acción y ciencia ficción de 2022. La película se estrenó en el <strong>South by Southwest</strong> el 11 de marzo de 2022. Comenzó un estreno limitado en cines en los <strong>Estados Unidos </strong>25 de marzo de 2022, antes de estrenarse el 8 de abril de 2022 por A24. La película recibió elogios de parte de la crítica y recaudó más de <strong>$103 millones en todo el mundo.</strong> , convirtiéndose en la primera película de A24 en cruzar la marca de los 100 millones de dólares y superando a Hereditary (2018) como su película más taquillera.
-            <strong>National Board of Review</strong> y<strong>el American Film Institute</strong> la nombraron una de las diez mejores películas de 2022. La película recibió seis nominaciones en la 80.ª edición de <strong>Globos de Oro,</strong> incluyendo Mejor Película - Musical o Comedia y Mejor Director, ganando Mejor actriz - Comedia o musical y Mejor actor de reparto, y 14 nominaciones principales en los Premios de la Crítica Cinematográfica, incluyendo Mejor Película.
-        </p>
-
-         <!-- Aquí esta el director de la película Todo a la vez en todas partes-->
-         <h2> Director </h2>
-         <img src="IMG/Dan Kwan.jpg" alt="Dan Kwan" width="250" height="300">
-         <p>Esta película esta dirigida por Dan Kwan.</p>
-
-         <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Michelle Yeoh</li>
-            <p>Como Evelyn Wang, una mujer chino-estadounidense que existe en múltiples universos.</p>
-            <img src="IMG/Michelle Yeoh.jpg" alt="Michelle Yeoh" width="250" height="300">
-            
-            <!-- Segundo del reparto-->
-            <li>Ke Huy Quan</li>
-            <p>Como Waymond Wang, esposo de Evelyn.</p>
-            <img src="IMG/Ke Huy Quan.jpg" alt="Ke Huy Quan" width="250" height="300">
-
-            <!-- Tercero del reparto-->
-            <li>Stephanie Hsu</li>
-            <p>Como Joy Wang / Jobu Tupaki, hija de Evelyn.</p>
-            <img src="IMG/Stephanie Hsu.jpg" alt="Stephanie Hsu" width="250" height="300">
-
-            <!-- Cuarto del reparto-->
-            <li>James Hong</li>
-            <p>Como Gong Gong, el padre de Evelyn.</p>
-            <img src="IMG/James Hong.jpg" alt="James Hong" width="250" height="300">
-
-            <!-- Quinto del reparto -->
-            <li>Jamie Lee Curtis</li>
-            <p>Como Deirdre Beaubeirdra, inspectora del IRS.</p>
-            <img src="IMG/Jamie Lee Curtis.jpg" alt="Jamie Lee Curtis" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>Jenny Slate</li>
-            <p>Como  Big Nose.</p>
-            <img src="IMG/Jenny Slate.jpg" alt="Jenny Slate" width="250" height="300">
-
-            <!-- Septimo del reparto-->
-            <li>Harry Shum Jr</li>
-            <p>Como Chad.</p>
-            <img src="IMG/Harry Shum Jr.jpg" alt="Harry Shum Jr" width="250" height="300">
-
-            <!-- Octavo del reparto-->
-            <li>Tallie Medel</li>
-            <p>Como Becky, la novia de Joy.</p>
-            <img src="IMG/Tallie Medel.jpg" alt="Tallie Medel" width="250" height="300">
-        </ul>
-    </div>
-
-    <div>
-        <!-- Aqui tenemos la septima película The black Phone con el titulo y un breve resumen-->
-        <h1>The Black Phone</h1>
-        
-        <p>
-            <strong>The Black Phone</strong>es una película estadounidense de terror sobrenatural.se trata de una adaptación del cuento homónimo de <strong>Joe Hill</strong>. Está protagonizada por <strong>Mason Thames</strong> en el papel de un niño secuestrado que puede comunicarse con las anteriores víctimas de su secuestrador, interpretado por <strong>Ethan Hawke</strong>.
-            En enero de 2020, <strong>Derrickson</strong> anunció su salida de la dirección de <strong>Doctor Strange in the Multiverse of Madness </strong> debido a diferencias creativas con <strong>Marvel Studios.</strong> Como resultado, decidió asociarse con Cargill para realizar <strong>The Black Phone.</strong> El largometraje se anunció en octubre de 2020 y el rodaje comenzó en febrero de 2021.
-            <strong>The Black Phone</strong> tuvo su estreno mundial en el <strong>Fantastic Fest</strong> el 25 de septiembre de 2021. Estaba previsto que Universal Pictures se estrene en cines el 4 de febrero de 2022, pero debido a falta de tiempo acabó siendo atrasada al 24 de junio de 2022. La película recibió críticas generalmente positivas, con elogios por su fidelidad al material original, la dirección de Derrickson y la actuación de Hawke.
-        </p>
-
-        <!-- Aquí esta el director de la película The Black Phone-->
-        <h2> Director </h2>
-        <img src="IMG/Scott Derrickson.jpg" alt="Scott Derrickson" width="250" height="300">
-        <p>Esta película esta dirigida por Scott Derrickson.</p>
-
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Mason Thames</li>
-            <p>Como Finney Blake: El hermano de Gwen y el hijo del Sr. Blake.</p>
-            <img src="IMG/Mason Thames.jpg" alt="Mason Thames" width="250" height="300">
-            
-            <!-- Segundo del reparto-->
-            <li>Madeleine McGraw</li>
-            <p>Como Gwendolyn Blake: La hermana de Finney y la hija del Sr. Blake.</p>
-            <img src="IMG/Madeleine McGraw.jpg" alt="Madeleine McGraw" width="250" height="300">
-
-            <!-- Tercero del reparto-->
-            <li>Ethan Hawke</li>
-            <p>Como Albert / "El Raptor": Un secuestrador de niños y asesino en serie.</p>
-            <img src="IMG/Ethan Hawke.jpg" alt="Ethan Hawke" width="250" height="300">
-
-            <!-- Cuarto del reparto-->
-            <li>Jeremy Davies</li>
-            <p>Como el Terrence Blake: El padre alcohólico de Finney y Gwen.</p>
-            <img src="IMG/Jeremy Davies.jpg" alt="Jeremy Davies" width="250" height="300">
-
-            <!-- Quinto del reparto -->
-            <li>James Ransone</li>
-            <p>Como Max: El hermano de Albert "El Raptor".</p>
-            <img src="IMG/James Ransone.jpg" alt="James Ransone" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>E. Roger Mitchell</li>
-            <p>Como el detective Wright.</p>
-            <img src="IMG/E. Roger Mitchell.jpg" alt="E. Roger Mitchell" width="250" height="300">
-
-            <!-- Septimo del reparto-->
-            <li>Troy Rudeseal</li>
-            <p>Como Detective Miller.</p>
-            <img src="IMG/Troy Rudeseal.jpg" alt="Troy Rudeseal" width="250" height="300">
-
-            <!-- Octavo del reparto-->
-            <li>Miguel Cazarez Mora</li>
-            <p>Como Robin Arellano.</p>
-            <img src="IMG/Miguel Cazarez Mora.jpg" alt="Miguel Cazarez Mora" width="250" height="300">
-        </ul>
-    </div>
-    
-    <div>
-        <!-- Aqui tenemos la octava película Nope con el titulo y un breve resumen-->
-        <h1>Nope</h1>
-        
-        <p>
-            Nope es una película de terror y ciencia ficción estadounidense de 2022, Está protagonizada por Daniel Kaluuya, Keke Palmer, Steven Yeun, Michael Wincott y Brandon Perea y sigue a dos hermanos propietarios de un rancho que intentan capturar evidencia de un objeto volador no identificado. La filmación tuvo lugar durante el otoño de 2021 en el norte del condado de Los Ángeles y terminó en noviembre. Se rumoreaba que el título era un acrónimo de "Not Of Planet Earth" o "Not Our Planet Earth" según el póster de la película, pero Peele reveló más tarde que el título se refiere a la reacción que esperaba provocar en el público.
-        </p>
-
-        <!-- Aquí esta el director de la película Nope-->
-        <h2> Director </h2>
-        <img src="IMG/Jordan Peele.jpg" alt="Jordan Peele" width="250" height="300">
-        <p>Esta película esta dirigida por Jordan Peele.</p>
-
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Daniel Kaluuya</li>
-            <p>Como Otis Jr. "OJ" Haywood, hijo de Otis.</p>
-            <img src="IMG/Daniel Kaluuya.jpg" alt="Daniel Kaluuya" width="250" height="300">
-            
-            <!-- Segundo del reparto-->
-            <li>Keke Palmer</li>
-            <p>Como Emerald "Em" Haywood, hija de Otis.</p>
-            <img src="IMG/Keke Palmer.jpg" alt="Keke Palmer" width="250" height="300">
-
-            <!-- Tercero del reparto-->
-            <li>Steven Yeun</li>
-            <p>Como Ricky "Jupe" Park, ex niño actor y propietario/creador del parque temático "Jupiter's Claim".</p>
-            <img src="IMG/Steven Yeun.jpg" alt="Steven Yeun" width="250" height="300">
-
-            <!-- Cuarto del reparto-->
-            <li>Jacob Kim</li>
-            <p>Como Young Ricky "Jupe" Park, quien interpreta a Mikey Houston en Gordy's Home.</p>
-            <img src="IMG/Jacob Kim.jpg" alt="Jacob Kim" width="250" height="300">
-
-            <!-- Quinto del reparto -->
-            <li>Brandon Perea</li>
-            <p>Como Angel Torres, un vendedor de tecnología en Fry's Electronics.</p>
-            <img src="IMG/Brandon Perea.jpg" alt="Brandon Perea" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>Michael Wincott</li>
-            <p>Como Antlers Holst, un reconocido director de fotografía.</p>
-            <img src="IMG/Michael Wincott.jpg" alt="Michael Wincott" width="250" height="300">
-
-            <!-- Septimo del reparto-->
-            <li>Wrenn Schmidt</li>
-            <p>Como Amber Park, la esposa de Jupe.</p>
-            <img src="IMG/Wrenn Schmidt.jpg" alt="Wrenn Schmidt" width="250" height="300">
-
-            <!-- Octavo del reparto-->
-            <li>Keith David</li>
-            <p>Como Otis Haywood Sr., el propietario del Hollywood Horses Ranch de Haywood.</p>
-            <img src="IMG/Keith David.jpg" alt="Keith David" width="250" height="300">
-        </ul>
-    </div>
-
-    <div>
-        <!-- Aqui tenemos la novena película Black Panther con el titulo y un breve resumen-->
-        <h1>Black Panther: Wakanda Forever</h1>
-        
-        <p>
-            <strong>Black Panther: Wakanda Forever</strong> es una película de superhéroes basada en el personaje Pantera Negra propiedad de Marvel Comics. Producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures, es la secuela de la película Black Panther (2018) y la película número 30 del Universo cinematográfico de Marvel (UCM).Los planes para la película cambiaron en agosto de 2020 cuando la estrella de Black Panther, Chadwick Boseman, falleció de cáncer de colon, y Marvel decidió no reemplazarlo en su papel de T'Challa. Se confirmó que otros miembros principales del elenco de la primera película regresarían en noviembre, y el título se anunció en mayo de 2021.
-        </p>
-
-        <!-- Aquí esta el director de la película Black Panther-->
-        <h2> Director </h2>
-        <img src="IMG/Ryan Coogler.jpg" alt="Ryan Coogler" width="250" height="300">
-        <p>Esta película esta dirigida por Ryan Coogler.</p>
-
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Letitia Wright</li>
-            <p>Como Shuri / Black Panther: La princesa de Wakanda que diseña nueva tecnología para Wakanda.</p>
-            <img src="IMG/Letitia Wright.jpg" alt="Letitia Wright" width="250" height="300">
-            
-            <!-- Segundo del reparto-->
-            <li>Lupita Nyong'o</li>
-            <p>Como Nakia: Una miembro de los Perros de Guerra, una espía encubierta de Wakanda, de la Tribu del Río.</p>
-            <img src="IMG/upita Nyong'o.jpg" alt="upita Nyong'o" width="250" height="300">
-
-            <!-- Tercero del reparto-->
-            <li>Danai Gurira</li>
-            <p>Como Okoye: La jefa de la Dora Milaje, las fuerzas especiales de Wakanda.</p>
-            <img src="IMG/Danai Gurira.jpg" alt="Danai Gurira" width="250" height="300">
-
-            <!-- Cuarto del reparto-->
-            <li>Dominique Thorne</li>
-            <p>Como Riri Williams / Ironheart: Una inventora genio que crea una armadura que rivaliza con la armadura de Iron Man.</p>
-            <img src="IMG/Dominique Thorne.jpg" alt="Dominique Thorne" width="250" height="300">
-
-            <!-- Quinto del reparto -->
-            <li>Winston Duke</li>
-            <p>Como M'Baku: Un poderoso y despiadado guerrero que es el líder de la tribu montañesa de Wakanda, los Jabari.</p>
-            <img src="IMG/Winston Duke.jpg" alt="Winston Duke" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>Angela Bassett</li>
-            <p>Como Ramonda: La Reina Madre de Wakanda que está de duelo por la muerte de su hijo T'Challa.</p>
-            <img src="IMG/Angela Bassett.jpg" alt="Angela Bassett" width="250" height="300">
-
-            <!-- Septimo del reparto-->
-            <li>Ténoch Huerta</li>
-            <p>Como Namor: El rey de Talokán, una antigua civilización de personas que habitan bajo el agua.</p>
-            <img src="IMG/Ténoch Huerta.jpg" alt="Ténoch Huerta" width="250" height="300">
-
-            <!-- Octavo del reparto-->
-            <li>Florence Kasumba</li>
-            <p>Como Ayo: Miembro y segunda al mando de la Dora Milaje.</p>
-            <img src="IMG/Florence Kasumba.jpg" alt="Florence Kasumba" width="250" height="300">
-        </ul>
-    </div>
-
-    <div>
-        <!-- Aqui tenemos la decima película Turning Red con el titulo y un breve resumen-->
-        <h1>Turning Red</h1>
-        
-        <p>
-            <strong>Turning Red </strong> es una película <strong>estadounidense de comedia, de aventuras</strong> y que trata a la pubertad de una manera metafórica, animada por ordenador, producida por <strong>Pixar Animation Studios</strong> y lanzada por <strong>Walt Disney Pictures</strong>. <strong>Red</strong> se estrenó en <strong>China</strong> el 18 de febrero de 2022, y en <strong>Disney+ en Estados Unidos</strong> y demás países con la plataforma el 11 de marzo de 2022 y 10 de marzo de 2022, siendo estrenada en cines en países que no disponen de la plataforma. A mediados de marzo del año 2002, Meilin "Mei" Lee es una niña canadiense de ascendencia china de 13 años que vive en la ciudad de <strong>Toronto.</strong> Es una estudiante prodigio y tiene un séquito de amigas cercanas compuesto por <strong>Miriam, Priya y Abby</strong>.           
-        </p>
-
-        <!-- Aquí esta el director de la película Turning Red-->
-        <h2> Director </h2>
-        <img src="IMG/Domee Shi.jpg" alt="Domee Shi" width="250" height="300">
-        <p>Esta película esta dirigida por Domee Shi</p>
-
-        <!-- Aquí esta el reparto-->
-        <h2> Reparto </h2>
-        <ul>
-            <!-- Primero del reparto-->
-            <li>Meilin "Mei" Lee</li>
-            <p>Como Rosalie Chiang.</p>
-            <img src="IMG/Rosalie Chiang.jpg" alt="Rosalie Chiang" width="250" height="300">
-            
-            <!-- Segundo del reparto-->
-            <li>Ming Lee</li>
-            <p>Como Sandra Oh.</p>
-            <img src="IMG/Sandra Oh.jpg" alt="Sandra Oh" width="250" height="300">
-
-            <!-- Tercero del reparto-->
-            <li>Miriam Wexler</li>
-            <p>Como Ava Morse.</p>
-            <img src="IMG/Ava Morse.jpg" alt="Ava Morse" width="250" height="300">
-
-            <!-- Cuarto del reparto-->
-            <li>Abby Park</li>
-            <p>Como Hyein Park.</p>
-            <img src="IMG/Hyein Park.jpg" alt="Hyein Park" width="250" height="300">
-
-            <!-- Quinto del reparto -->
-            <li>Priya Dewan</li>
-            <p>Como Maitreyi Ramakrishnan.</p>
-            <img src="IMG/Maitreyi Ramakrishnan.jpg" alt="Maitreyi Ramakrishnan" width="250" height="300">
-            
-            <!-- Sexto del reparto -->
-            <li>Jin Lee</li>
-            <p>Como Orion Lee.</p>
-            <img src="IMG/Orion Lee.jpg" alt="Orion Lee" width="250" height="300">
-
-            <!-- Septimo del reparto-->
-            <li>Abuela de Mei</li>
-            <p>Como Wai Ching Ho.</p>
-            <img src="IMG/Wai Ching Ho.jpg" alt="Wai Ching Ho" width="250" height="300">
-
-            <!-- Octavo del reparto-->
-            <li>Tyler Nguyen-Baker</li>
-            <p>Como Tristan Allerick.</p>
-            <img src="IMG/Tristan Allerick.jpg" alt="Tristan Allerick" width="250" height="300">
-        </ul>
+                    <!-- Octavo del reparto-->
+                    <div class="ActorPeliculas">
+                        <li>Tyler Nguyen-Baker</li>
+                        <p>Como Tristan Allerick.</p>
+                        <img src="IMG/Tristan Allerick.jpg" alt="Tristan Allerick" width="250" height="300">
+                    </div>
+                </div>
+            </ul>
+        </div>
     </div>
 
     <footer></footer>
