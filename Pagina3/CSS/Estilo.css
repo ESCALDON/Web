@@ -1,0 +1,14 @@
+.TituloPelicula{
+    
+
+}
+
+ul{
+    text-decoration: none;
+    list-style:none;
+}
+
+/* --------------------------------------- ESTILO PARA IMAGENES------------------------------*/
+  .img img{
+     width:100%;
+  }
