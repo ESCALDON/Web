@@ -1,14 +1,64 @@
-.TituloPelicula{
-    
+/* -------------------- FUENTES -------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
+/* ------------------- ESTILO PARA LOS TITULOS ----------------------------- */
+.TituloPelicula{
+  font-family: 'Anton';
+  color: #000000;
 }
 
+/*----------------------- TITULO DIRECTOR------------------------------------ */
+.TituloDirector{
+  font-family: 'Acme' ;
+  color: rgb(19,19,151);
+}
+
+/* NEGRITA DEL TEXTO ESTILO*/
+strong{
+  color: #000000;
+  font-weight: bold;
+}
+/* TARJETA DONDE ESTA CADA ACTOR DEL REPARTO */
+.ActorPelicula{
+  border-radius: 20px;
+  border:2px solid #3b4346 !important;
+  color: #3b4346;
+  z-index: 0;
+}
+.ActorPelicula:hover{
+  box-shadow: 15px 15px 10px 1px rgba(0, 0, 0, 0.2) !important;
+  border: 3px solid #000000 !important;
+}
+
+/* TARJETA DONDE ESTA CADA DIRECTOR DE LA PELICULA */
+.DirectorPelicula{
+  border-radius: 20px;
+  border:2px solid #3b4346 !important;
+  background: rgb(19,19,151);
+  color: #3b4346;
+}
+
+/*-------------------------- BODY DE LA PAGINA ----------------------------------------------*/
+body{
+  color:#3b4346;
+  background-color:#9fbdf2;
+  font-family: bahnschrift Semibold;
+}
+/*---------------------- LISTAS Y A QUITAR LA DECORACION Y PONER EL COLOR------------------*/
 ul{
     text-decoration: none;
     list-style:none;
 }
 
-/* --------------------------------------- ESTILO PARA IMAGENES------------------------------*/
-  .img img{
-     width:100%;
-  }
+textarea:focus, input:focus {outline: none ;}
+a {color: #9fbdf2; text-decoration: none;}
+a:hover {color: #9fbdf2; text-decoration: none;}
+a:visited {color: #9fbdf2;text-decoration: none;}
+
+/* --------------------- ESTILOS DEL FOOTER ---------------------------------------- */
+footer{
+  color: #9fbdf2;
+  background-color: #3b4346;
+  font-family: bahnschrift Semibold;
+}
