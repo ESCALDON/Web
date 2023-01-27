@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift SemiBold;
+}
+body{
+    background-color: #9FBDF2;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    background-image: url(imagenes/002f0825-efc1-489c-83cc-6a396b94ad08.jfif);
+    background-repeat: no-repeat;
+    background-size: 63px;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+    padding: 20px;
+    padding-left: 60px;
+}
+li{
+    float: left;
+}
+a{
+    font-size: large;
+    margin-left: 10px;
+    color: #9FBDF2;
+
+    text-decoration: none;
+}
+a:hover{
+    color: #3B4346;
+}
+#inicioSesion{
+    position: absolute;
+    right: 20px;
+}
+.clearfix{
+    clear: both;
+}

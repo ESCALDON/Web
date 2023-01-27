@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina 2 estilos.css">
     <title>Opiniones</title>
 </head>
 <body>
-    <nav></nav>
+    <nav>
+        <ul>
+            <li><a href="#  ">Películas</a></li>
+            <li><a href="#">Reparto</a></li>
+            <li><a href="#">Opiniones</a></li>
+            <li id="inicioSesion"><a href="#">Iniciar sesión</a>
+                <ul>
+                    <li>Iniciar sesión con google</li>
+                    <li>iniciar sesión con Facebook</li>
+                </ul>
+            </li>
+
+            <div class="clearfix"></div>
+        </ul>
+        
+    </nav>
+    
+    <div class="clearfix"></div>
     <div id="Contenido">
         <!--Creo divs para tener controladas las opiniones de cada película y poder separarlas.-->
         <div>
+            
             <h1>Opiniones de las películas</h1>
             <h2><strong>Top Gun: Maverick</strong></h2>
             <h3>Jose Enrique:</h3>
@@ -65,6 +81,7 @@
             <!--Aquí hago un formulario para enviar una reseña-->
             <form action="">
                 <fieldset>
+                    <legend>Escribe una reseña</legend>
                     <p><b>Selecciona una película</b></p>
                     <label for="boton">Top Gun: Maverick</label>
                     <input type="radio" name="reseña" id="">
@@ -96,7 +113,6 @@
                     <label for="boton">Turning Red</label>
                     <input type="radio" name="reseña" id="">
                     <br><br>
-                    <legend>Escribe una reseña</legend>
                     <label for="Reseña">Reseña</label>
                     <input type="text" name="reseña" id="">
                     <input type="submit" name="reseña" id="">
