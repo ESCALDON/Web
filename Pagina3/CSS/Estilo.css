@@ -45,6 +45,10 @@ strong{
   background: rgb(19,19,151);
   color: #3b4346;
 }
+.DirectorPelicula:hover{
+  box-shadow: 15px 15px 10px 1px rgba(0, 0, 0, 0.2) !important;
+  border: 3px solid #000000 !important;
+}
 
 /*-------------------------- BODY DE LA PAGINA ----------------------------------------------*/
 body{
@@ -73,9 +77,13 @@ footer{
 /*----------TITULO DE LOS LI DEL FOOTER-----------------------------------------------*/
 .TituloFooter{
   font-family: 'Unbounded', cursive;
+  font-style: oblique;
+  color:#ffffff;
+  /* text-shadow: 1px 1px#9fbdf2; */
 }
 
 /* ------------------------ESTILO PARA EL NOMBRE DEL TEAM FOOTER--------------------------*/
 .NombreTeam{
   font-family: 'Unbounded', cursive;
+  color:#ffffff;
 }
