@@ -2,10 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Unbounded:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+  margin: 0 !important;
+  
+}
+
 /* ------------------- ESTILO PARA LOS TITULOS ----------------------------- */
 .TituloPelicula{
   font-family: 'Anton';
   color: #000000;
+}
+
+/*-------------------ESTILO PARA LOS NOMBRE DE LOS ACTORES.................  */
+.TituloNombredirector{
+  font-size: 18px;
+  font-family: 'Anton';
+  color: #000 ;
+}
+
+/*-----------------ESTILO PARA LOS NOMBRE DE LOS PERSONAJES-------------------*/
+.TituloNombrePersonaje{
+  font-family: 'Acme';
+  font-size: 17px;
+}
+
+.TituloNombre{
+  font-family: 'Acme';
+  font-size: 17px;
+}
+
+/*------------------ESTILO PARA RL NUMERO DEL TITULO ---------------------- */
+.NumeroTitulo{
+  color: #b5b1b1;
+  font-weight:bold;
+  font-family: 'Abril Fatface';
+  font-size: 70px;
+  -webkit-text-stroke: 2px #878686; /**/
+  opacity: 50%;
 }
 
 /*----------------------- TITULO DIRECTOR------------------------------------ */
