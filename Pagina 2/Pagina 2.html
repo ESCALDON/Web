@@ -5,19 +5,12 @@
     <title>Opiniones</title>
 </head>
 <body>
-    <nav>
+    <nav id="nav">
         <ul>
             <li><a href="#  ">Películas</a></li>
             <li><a href="#">Reparto</a></li>
             <li><a href="#">Opiniones</a></li>
-            <li id="inicioSesion"><a href="#">Iniciar sesión</a>
-                <ul>
-                    <li>Iniciar sesión con google</li>
-                    <li>iniciar sesión con Facebook</li>
-                </ul>
-            </li>
-
-            <div class="clearfix"></div>
+            <!--<div class="clearfix"></div>-->
         </ul>
         
     </nav>
@@ -25,9 +18,8 @@
     <div class="clearfix"></div>
     <div id="Contenido">
         <!--Creo divs para tener controladas las opiniones de cada película y poder separarlas.-->
+        <h1>Opiniones de las películas</h1>
         <div>
-            
-            <h1>Opiniones de las películas</h1>
             <h2><strong>Top Gun: Maverick</strong></h2>
             <h3>Jose Enrique:</h3>
             <p>Esta película es una puta mierda. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, soluta voluptate dolorem magni ea, sed officia iusto unde porro dignissimos vero quam! Impedit assumenda beatae veritatis, recusandae esse voluptatibus dignissimos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus officiis alias vero placeat quis quasi, nostrum atque at maiores magni magnam tempore perferendis architecto ab eum iure adipisci! Odio, libero!</p>
@@ -36,6 +28,8 @@
             <h2><strong>Puñales por la espalda: el misterio de Glass Onion</strong></h2>
             <h3>Antonio:</h3>
             <p>Me ha gustado mucho la peli!!</p>
+            <h3>Sebastian:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsam inventore, incidunt delectus ipsum officiis dolor provident praesentium aperiam asperiores quam numquam perspiciatis voluptatum. Explicabo dicta omnis ipsam quas ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione ipsa excepturi ad ex odit animi aperiam impedit ipsam perferendis explicabo ducimus, provident modi officiis itaque unde beatae minima nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facilis architecto quidem nostrum maiores quasi rerum quae provident! Laudantium quam recusandae officia aperiam repudiandae totam pariatur fugiat quis unde error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat debitis molestiae eos natus. Eaque ea hic, soluta, natus architecto qui voluptas vitae velit amet numquam praesentium, quis iusto illum!</p>
         </div>
         <div>
             <h2><strong>The Batman</strong></h2>
@@ -77,48 +71,50 @@
             <h3>Juan:</h3>
             <p>De camino al cine me han atracado 2 veces, como a la segunda el atracador ha visto que me han dejado sin dinero me ha acompañado al cine a ver la película (pagó el), esta película nos ha unido como si fueramos hermanos y ahora mismo puedo decir que es mi mejor amigo.</p>
         </div>
-        <div id="Reseñas">
-            <!--Aquí hago un formulario para enviar una reseña-->
-            <form action="">
-                <fieldset>
-                    <legend>Escribe una reseña</legend>
-                    <p><b>Selecciona una película</b></p>
-                    <label for="boton">Top Gun: Maverick</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">Puñales por la espalda: el misterio de Glass Onion</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">The Batman</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">Avatar: el sentido del agua</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">The Northman</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">Todo a la vez en todas partes</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">The Black Phone</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">Nope</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">Black Panther: Wakanda Forever</label>
-                    <input type="radio" name="reseña" id="">
-                    <br>
-                    <label for="boton">Turning Red</label>
-                    <input type="radio" name="reseña" id="">
-                    <br><br>
-                    <label for="Reseña">Reseña</label>
-                    <input type="text" name="reseña" id="">
-                    <input type="submit" name="reseña" id="">
-                </fieldset>
-            </form>
-        </div>
+
+        
+    </div>
+    <div id="Reseñas">
+        <!--Aquí hago un formulario para enviar una reseña-->
+        <form action="">
+            <fieldset>
+                <legend>Escribe una reseña</legend>
+                <p><b>Selecciona una película</b></p>
+                <label for="boton">Top Gun: Maverick</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">Puñales por la espalda: el misterio de Glass Onion</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">The Batman</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">Avatar: el sentido del agua</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">The Northman</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">Todo a la vez en todas partes</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">The Black Phone</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">Nope</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">Black Panther: Wakanda Forever</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <label for="boton">Turning Red</label>
+                <input type="radio" name="reseña" id="">
+                <br>
+                <input type="text" name="reseña" id="ReseñaTexto">
+                <br>
+                <input type="submit" name="reseña" id="">
+            </fieldset>
+        </form>
     </div>
     <footer></footer>
 </body>
