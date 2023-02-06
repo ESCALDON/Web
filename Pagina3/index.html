@@ -9,28 +9,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
     <link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
 </head>
-<body class="m-2">
+<body class="">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <nav></nav>
+    
+    <nav id="nav">
+        <ul>
+            <li><a href="../Pagina 1/Pagina Web/TOP10/Top10.html">Películas</a></li>
+            <li><a href="../Pagina 2/Pagina 2.html">Reparto</a></li>
+            <li><a href="index.html">Opiniones</a></li>
+        </ul>
+    </nav>
+
 
     <div class="">
         <div class="">
             <!-- Aqui tenemos la primera película Top Gun con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center" >Top gun: Maverick</h1>
+            <h1 class="TituloPelicula text-center" ><b class="NumeroTitulo">1</b> Top gun: Maverick</h1>
             
-            <p>
+            <p class="m-2">
             <strong>Top Gun: Maverick:</strong> es una película de acción y drama estadounidense de 2022. Secuela de la película de <strong>1986 Top Gun.</strong> Se estrenó el 27 de mayo de 2022 en <strong>Estados Unidos.</strong> La cinta fue aclamada por la crítica, y muchos la calificaron como mejor que la original. Ganó el premio a la Mejor película por <strong>el National Board of Review</strong> y también fue nombrada una de las diez mejores películas de 2022 por el <strong>American Film Institute.</strong> La película también recibió muchos otros premios, incluyendo nominaciones para el <strong>Globo de Oro</strong> a la mejor película dramática y el Premio de la Crítica Cinematográfica a la mejor película.
             </p>
 
             <!-- Aquí esta el director de la película Top Gun-->
-            
             <h2 class ="TituloDirector text-center mt-5"> Director</h2>
             <div class="Container">
                 <div class="col d-flex justify-content-center text-center">
                     <div class="p-3 border bg-light DirectorPelicula">
                         <figure class="figure">
                             <img src="IMG/Joseph-Kosinski.jpg" class="figure-img img-fluid rounded " alt="joseph kosinski">
-                            <figcaption class="figure-caption">Esta película esta dirigida por joseph kosinski</figcaption>
+                            <figcaption class="figure-caption TituloNombre mt-1">Esta película esta dirigida por joseph kosinski</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -45,8 +52,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Tom Cruise.jpg" class="figure-img img-fluid rounded " alt="Tom Cruise">
-                                    <figcaption class="figure-caption">Tom cruise</figcaption>
-                                    <figcaption class="figure-caption">Capitán Pete "Maverick".</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1" >Tom cruise</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Capitán Pete "Maverick".</figcaption>
                                 </figure>
                             </div>    
                         </div>
@@ -56,8 +63,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Miles Teller.jpg" class="figure-img img-fluid rounded " alt="Miles Teller">
-                                    <figcaption class="figure-caption">Miles Teller</figcaption>
-                                    <figcaption class="figure-caption">Bradley "Rooster".</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Miles Teller</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Bradley "Rooster".</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -67,8 +74,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Jon Hamm.jpg" class="figure-img img-fluid rounded " alt="Jon Hamm">
-                                    <figcaption class="figure-caption">Jon Hamm</figcaption>
-                                    <figcaption class="figure-caption">Vicealmirante "Cyclone".</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jon Hamm</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Vicealmirante "Cyclone".</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -78,8 +85,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Jennifer Connelly.jpg" class="figure-img img-fluid rounded " alt="Jennifer Connelly" >
-                                    <figcaption class="figure-caption">Jenni Conne</figcaption>
-                                    <figcaption class="figure-caption">Penelope Penny.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jenni Conne</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Penelope Penny.</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -90,8 +97,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Glen Powell.jpg" class="figure-img img-fluid rounded " alt="Glen Powell" >
-                                    <figcaption class="figure-caption">Glen Powell</figcaption>
-                                    <figcaption class="figure-caption">Teniente Jake.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Glen Powell</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente Jake.</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -101,8 +108,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Monica Barbaro.jpg" class="figure-img img-fluid rounded " alt="Monica Barbaro">
-                                    <figcaption class="figure-caption">Monica Barbaro</figcaption>
-                                    <figcaption class="figure-caption">Teniente Natas.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Monica Barbaro</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente Natas.</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -112,8 +119,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Jay Ellis.jpg" class="figure-img img-fluid rounded " alt="Jay Ellis">
-                                    <figcaption class="figure-caption">Jay Ellis</figcaption>
-                                    <figcaption class="figure-caption">Teniente</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jay Ellis</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente</figcaption>
                                   </figure>                  
                             </div>
                         </div>
@@ -123,8 +130,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Lewis Pullman.jpg" class="figure-img img-fluid rounded " alt="Lewis Pullman">
-                                    <figcaption class="figure-caption">Lewis Pullman</figcaption>
-                                    <figcaption class="figure-caption">Teniente Robert.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Lewis Pullman</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente Robert.</figcaption>
                                 </figure>       
                             </div>
                         </div>
@@ -135,9 +142,9 @@
         
         <div>
             <!-- Aqui tenemos la segunda película Puñales por la espalda con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">Puñales por la espalda: el misterio de Glass Onion</h1>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">2</b> Puñales por la espalda: el misterio de Glass Onion</h1>
             
-            <p>
+            <p class="m-2">
             <strong>Puñales a la espalda:</strong> es una película de misterio estadounidense de 2019. 
             Siguiendo el estilo del género whodunit, la película sigue a una reunión familiar que salió mal, después de que la muerte del patriarca lleve a un detective maestro a investigar.<strong> Puñales a la espalda</strong> tuvo su estreno mundial en el <strong>festival internacional de Cine de toronto de 2019 el 7 de septiembre</strong>, y fue estrenada en los Estados Unidos.
             </p>
@@ -165,8 +172,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Daniel Craig.jpg" class="figure-img img-fluid rounded " alt="Daniel Craig">
-                                    <figcaption class="figure-caption">Daniel Craig</figcaption>
-                                    <figcaption class="figure-caption">Benoit Blanc</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Daniel Craig</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Benoit Blanc</figcaption>
                                 </figure>
                             </div>    
                         </div>
@@ -176,8 +183,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Ana de Armas.jpg" class="figure-img img-fluid rounded " alt="Ana de Armas">
-                                    <figcaption class="figure-caption">Ana de Armas</figcaption>
-                                    <figcaption class="figure-caption">Marta Cabrera.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Ana de Armas</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Marta Cabrera.</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -187,8 +194,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Chris Evans.jpg" class="figure-img img-fluid rounded " alt="Chris Evans">
-                                    <figcaption class="figure-caption">Chris Evans</figcaption>
-                                    <figcaption class="figure-caption">Hugh Ransom Drysdale.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Chris Evans</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Hugh Ransom Drysdale.</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -198,8 +205,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Jamie Lee Curtis.jpg" class="figure-img img-fluid rounded " alt="Jamie Lee Curtis" >
-                                    <figcaption class="figure-caption">Jamie Lee Curtis</figcaption>
-                                    <figcaption class="figure-caption">Linda Drysdale.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jamie Lee Curtis</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Linda Drysdale.</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -212,8 +219,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Michael Shannon.jpeg" class="figure-img img-fluid rounded " alt="Michael Shannon" >
-                                    <figcaption class="figure-caption">Michael Shannon</figcaption>
-                                    <figcaption class="figure-caption">Walter «Walt» Thrombey.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Michael Shannon</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Walter «Walt» Thrombey.</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -223,8 +230,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Don Johnson.jpg" class="figure-img img-fluid rounded " alt="Don Johnson">
-                                    <figcaption class="figure-caption">Don Johnson</figcaption>
-                                    <figcaption class="figure-caption">Richard Drysdale.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Don Johnson</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Richard Drysdale.</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -234,8 +241,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Christopher Plummer.jpg" class="figure-img img-fluid rounded " alt="Christopher Plummer">
-                                    <figcaption class="figure-caption">Christopher Plummer</figcaption>
-                                    <figcaption class="figure-caption">Harlan Thrombey.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Christopher Plummer</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Harlan Thrombey.</figcaption>
                                   </figure>                  
                             </div>
                         </div>
@@ -245,8 +252,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Toni Collette.jpg" class="figure-img img-fluid rounded " alt="Toni Collette">
-                                    <figcaption class="figure-caption">Toni Collette</figcaption>
-                                    <figcaption class="figure-caption">Joni Thrombey.</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Toni Collette</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Joni Thrombey.</figcaption>
                                 </figure>       
                             </div>
                         </div>
@@ -257,9 +264,9 @@
 
         <div>
             <!-- Aqui tenemos la tercera película The Batman con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">The Batman</h1>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">3</b> The Batman</h1>
 
-            <p>
+            <p class="m-2">
             <strong>The Batman:</strong>es una película estadounidense de superhéroes, basada en el personaje homónimo creado por <strong>Bob Kane y Bill Finger para DC Comics.</strong> La película fue anunciada en 2015, Sin embargo, tras múltiples problemas personales del actor, decidió retirarse del proyecto. La cinta tenía una fecha de estreno prevista por <strong>Warner Bros.</strong> Pictures para el 25 de junio de 2021, pero fue retrasada dos veces a causa de la pandemia de <strong>COVID-19</strong>, hasta fijarse al 4 de marzo de 2022.
             </p>
 
@@ -287,8 +294,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Robert Pattinson.jpg" class="figure-img img-fluid rounded " alt="Robert Pattinson">
-                                    <figcaption class="figure-caption">Robert Pattinson</figcaption>
-                                    <figcaption class="figure-caption">Batman</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Robert Pattinson</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Batman</figcaption>
                                 </figure>
                             </div>    
                         </div>
@@ -298,8 +305,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Zoë Kravitz.jpg" class="figure-img img-fluid rounded " alt="Zoë Kravitz">
-                                    <figcaption class="figure-caption">Zoë Kravitz</figcaption>
-                                    <figcaption class="figure-caption">Catwoman</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Zoë Kravitz</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Catwoman</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -309,8 +316,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Paul Dano.jpg" class="figure-img img-fluid rounded " alt="Paul Dano">
-                                    <figcaption class="figure-caption">Paul Dano</figcaption>
-                                    <figcaption class="figure-caption">Riddler</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Paul Dano</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Riddler</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -320,8 +327,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Jeffrey Wright.jpg" class="figure-img img-fluid rounded " alt="Jeffrey Wright" >
-                                    <figcaption class="figure-caption">Jeffrey Wright</figcaption>
-                                    <figcaption class="figure-caption">James Gordon</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jeffrey Wright</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">James Gordon</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -334,8 +341,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/John Turturro.jpg" class="figure-img img-fluid rounded " alt="John Turturro" >
-                                    <figcaption class="figure-caption">John Turturro</figcaption>
-                                    <figcaption class="figure-caption">Carmine Falcone</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">John Turturro</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Carmine Falcone</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -345,8 +352,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Colin Farrell.jpg" class="figure-img img-fluid rounded " alt="Colin Farrell">
-                                    <figcaption class="figure-caption">Colin Farrell</figcaption>
-                                    <figcaption class="figure-caption">Oswald «Oz»</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Colin Farrell</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Oswald «Oz»</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -356,8 +363,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Peter Sarsgaard.jpg" class="figure-img img-fluid rounded " alt="Peter Sarsgaard">
-                                    <figcaption class="figure-caption">Peter Sarsgaard</figcaption>
-                                    <figcaption class="figure-caption">Gil Colson</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Peter Sarsgaard</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Gil Colson</figcaption>
                                 </figure>                  
                             </div>
                         </div>
@@ -367,8 +374,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Barry Keoghan.jpg" class="figure-img img-fluid rounded " alt="Barry Keoghan">
-                                    <figcaption class="figure-caption">Barry Keoghan</figcaption>
-                                    <figcaption class="figure-caption">El Joker</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Barry Keoghan</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">El Joker</figcaption>
                                 </figure>       
                             </div>
                         </div>
@@ -379,8 +386,8 @@
 
         <div>
             <!-- Aqui tenemos la cuarta película Avatar: el sentido del agua con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">Avatar: El sentido del agua</h1>
-            <p>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">4</b> Avatar: El sentido del agua</h1>
+            <p class="m-2">
                 <strong>Avatar: el sentido del agua</strong> es  una película estadounidense perteneciente al género del cine épico, ciencia ficción y animación, Es la primera de las cuatro secuelas planificadas de su película <strong>Avatar</strong>. Los rodajes preliminares para la película comenzaron en <strong>Manhattan Beach, California</strong> el <date>15 de agosto de 2017</date>, seguidos del rodaje simultáneo de <strong>Avatar 3 en Nueva Zelanda</strong> <date>el 25 de septiembre de 2017</date>, y concluyeron a finales de septiembre de 2020. Luego de repetidos retrasos en el calendario de estenos, <strong>Avatar: El sentido del agua </strong> estrenó en <strong>Londres</strong> <date>el 6 de diciembre de 2022</date> y se estrenó en cines en los <strong>Estados Unidos</strong> el 16 de diciembre de 2022. Los críticos elogiaron la película por sus efectos visuales y logros técnicos, aunque algunos calificaron la trama como simple y criticaron su larga duración.
             </p>
 
@@ -408,8 +415,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Sam Worthington.jpg" class="figure-img img-fluid rounded " alt="Sam Worthington">
-                                    <figcaption class="figure-caption">Sam Worthington</figcaption>
-                                    <figcaption class="figure-caption">Jake Sully</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Sam Worthington</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Jake Sully</figcaption>
                                 </figure>
                             </div>    
                         </div>
@@ -419,8 +426,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Zoe Saldaña.jpg" class="figure-img img-fluid rounded " alt="Zoe Saldaña">
-                                    <figcaption class="figure-caption">Zoe Saldaña</figcaption>
-                                    <figcaption class="figure-caption">Neytiri</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Zoe Saldaña</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Neytiri</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -430,8 +437,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/CCH Pounder.jpg" class="figure-img img-fluid rounded " alt="CCH Pounder">
-                                    <figcaption class="figure-caption">CCH Pounder</figcaption>
-                                    <figcaption class="figure-caption">Mo'at</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">CCH Pounder</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Mo'at</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -441,8 +448,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Stephen Lang.jpg" class="figure-img img-fluid rounded " alt="Stephen Lang" >
-                                    <figcaption class="figure-caption">Stephen Lang</figcaption>
-                                    <figcaption class="figure-caption">Miles Quaritch</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Stephen Lang</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Miles Quaritch</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -455,8 +462,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Cliff Curtis.jpg" class="figure-img img-fluid rounded " alt="Cliff Curtis" >
-                                    <figcaption class="figure-caption">Cliff Curtis</figcaption>
-                                    <figcaption class="figure-caption">Tonowari</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Cliff Curtis</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Tonowari</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -466,8 +473,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Sigourney Weaver.jpg" class="figure-img img-fluid rounded " alt="Sigourney Weaver">
-                                    <figcaption class="figure-caption">Sigourney Weaver</figcaption>
-                                    <figcaption class="figure-caption">Kiri</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Sigourney Weaver</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Kiri</figcaption>
                                 </figure> 
                             </div>
                         </div>
@@ -477,8 +484,8 @@
                             <div class="p-3 border bg-light ActorPelicula">
                                 <figure class="figure">
                                     <img src="IMG/Paul Dano.jpg" class="figure-img img-fluid rounded " alt="Jamie Flatters">
-                                    <figcaption class="figure-caption">Jamie Flatters</figcaption>
-                                    <figcaption class="figure-caption">Neteyam</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jamie Flatters</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Neteyam</figcaption>
                                 </figure>                  
                             </div>
                         </div>
@@ -488,8 +495,8 @@
                             <div class="ActorPelicula p-3 border bg-light">
                                 <figure class="figure">
                                     <img src="IMG/Britain Dalton.jpg" class="figure-img img-fluid rounded " alt="Britain Dalton">
-                                    <figcaption class="figure-caption">Britain Dalton</figcaption>
-                                    <figcaption class="figure-caption">Lo'ak</figcaption>
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Britain Dalton</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Lo'ak</figcaption>
                                 </figure>       
                             </div>
                         </div>
@@ -500,8 +507,8 @@
 
         <div>
             <!-- Aqui tenemos la quinta película The Northman con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">The Northman</h1>
-            <p>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">5</b> The Northman</h1>
+            <p class="m-2">
                 <strong>The Northman</strong> es una película de suspenso y drama histórico épico estadounidense-británica. Ambientada a principios del siglo x en Islandia, está protagonizada por Alexander Skarsgård como el príncipe vikingo Amleth, junto a Nicole Kidman, Anya Taylor-Joy, Björk, Ralph Ineson, Ethan Hawke y Willem Dafoe. La trama sigue al personaje de Amleth, quien emprende una misión vengativa después del asesinato de su padre. El estreno de la película fue el 28 de marzo de 2022, de la mano de la productora cinematográfica independiente Focus Features.
             </p>
 
@@ -512,151 +519,227 @@
                     <div class="p-3 border bg-light DirectorPelicula">
                         <figure class="figure">
                             <img src="IMG/Robert Eggers.jpg" class="figure-img img-fluid rounded " alt="Robert Eggers">
-                            <figcaption class="figure-caption">Esta película esta dirigida por Robert Eggers</figcaption>
+                            <figcaption class="figure-caption TituloNombrePersonaje">Esta película esta dirigida por Robert Eggers</figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
 
             <!-- Aquí esta el reparto-->
-            <h2 class="TituloReparto mt-5"> Reparto </h2>
+            <h2 class="TituloReparto text-center align-self-center mt-5"> Reparto </h2> 
             <ul>
-                <div class="RepartoPeliculas">
+                <div class="Container RepartoPelicula">
+                    <div class="row d-flex justify-content-md-center ">
+                        <!-- Primero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Tom Cruise.jpg" class="figure-img img-fluid rounded " alt="Tom Cruise">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Tom cruise</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Capitán Pete "Maverick".</figcaption>
+                                </figure>
+                            </div>    
+                        </div>
 
-                    <!-- Primero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Alexander Skarsgård</li>
-                        <p>Como Amleth</p>
-                        <img src="IMG/Alexander Skarsgård.jpg" alt="Alexander Skarsgård" width="250" height="300">
-                    </div>
-                    
-                    <!-- Segundo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Nicole Kidman</li>
-                        <p>Como la reina Gudrun.</p>
-                        <img src="IMG/Nicole Kidman.jpg" alt="Nicole Kidman" width="250" height="300">
-                    </div>
+                        <!-- Segundo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Miles Teller.jpg" class="figure-img img-fluid rounded " alt="Miles Teller">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Miles Teller</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Bradley "Rooster".</figcaption>
+                                </figure>
+                            </div>
+                        </div>
 
-                    <!-- Tercero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Claes Bang</li>
-                        <p>Como Fjölnir.</p>
-                        <img src="IMG/Claes Bang.jpg" alt="Claes Bang" width="250" height="300">
-                    </div>
+                        <!-- Tercero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Jon Hamm.jpg" class="figure-img img-fluid rounded " alt="Jon Hamm">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jon Hamm</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Vicealmirante "Cyclone".</figcaption>
+                                </figure>
+                            </div>
+                        </div>
 
-                    <!-- Cuarto del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Anya Taylor-Joy</li>
-                        <p>Como Olga.</p>
-                        <img src="IMG/Anya Taylor-Joy.jpg" alt="Anya Taylor-Joy" width="250" height="300">
+                        <!-- Cuarto del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Jennifer Connelly.jpg" class="figure-img img-fluid rounded " alt="Jennifer Connelly" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jenni Conne</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Penelope Penny.</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
+                    <div class="row d-flex justify-content-md-center">
+                        <!-- Quinto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Glen Powell.jpg" class="figure-img img-fluid rounded " alt="Glen Powell" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Glen Powell</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente Jake.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
 
-                    <!-- Quinto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Ethan Hawke</li>
-                        <p>Como el rey Horvendill.</p>
-                        <img src="IMG/Ethan Hawke.jpg" alt="Ethan Hawke" width="250" height="300">
-                    </div>
-                    
-                    <!-- Sexto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Willem Dafoe</li>
-                        <p>Como Heimir.</p>
-                        <img src="IMG/Willem Dafoe.jpg" alt="Willem Dafoe" width="250" height="300">
-                    </div>
+                        <!-- Sexto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Monica Barbaro.jpg" class="figure-img img-fluid rounded " alt="Monica Barbaro">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Monica Barbaro</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente Natas.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
 
-                    <!-- Septimo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Murray McArthur</li>
-                        <p>Como Hakon.</p>
-                        <img src="IMG/Murray McArthur.jpg" alt="Murray McArthur" width="250" height="300">
-                    </div>
+                        <!-- Septimo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Jay Ellis.jpg" class="figure-img img-fluid rounded " alt="Jay Ellis">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jay Ellis</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente</figcaption>
+                                  </figure>                  
+                            </div>
+                        </div>
 
-                    <!-- Octavo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Ingvar Eggert Sigurðsson</li>
-                        <p>Como el brujo.</p>
-                        <img src="IMG/Ingvar Eggert Sigurðsson.jpg" alt="Ingvar Eggert Sigurðsson" width="250" height="300">
+                        <!-- Octava del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Lewis Pullman.jpg" class="figure-img img-fluid rounded " alt="Lewis Pullman">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Lewis Pullman</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Teniente Robert.</figcaption>
+                                </figure>       
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ul>
         </div>
-
+        
         <div>
             <!-- Aqui tenemos la sexta película Todo a la vez en todas partes con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">Todo a la vez en todas partes</h1>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">6</b> Todo a la vez en todas partes</h1>
 
-            <p>
+            <p class="m-2">
                 <strong>Todo a la vez en todas partes</strong>es una película estadounidense de comedia dramática absurda de acción y ciencia ficción de 2022. La película se estrenó en el <strong>South by Southwest</strong> el 11 de marzo de 2022. Comenzó un estreno limitado en cines en los <strong>Estados Unidos </strong>25 de marzo de 2022, antes de estrenarse el 8 de abril de 2022 por A24. La película recibió elogios de parte de la crítica y recaudó más de <strong>$103 millones en todo el mundo.</strong> , convirtiéndose en la primera película de A24 en cruzar la marca de los 100 millones de dólares y superando a Hereditary (2018) como su película más taquillera.
                 <strong>National Board of Review</strong> y<strong>el American Film Institute</strong> la nombraron una de las diez mejores películas de 2022. La película recibió seis nominaciones en la 80.ª edición de <strong>Globos de Oro,</strong> incluyendo Mejor Película - Musical o Comedia y Mejor Director, ganando Mejor actriz - Comedia o musical y Mejor actor de reparto, y 14 nominaciones principales en los Premios de la Crítica Cinematográfica, incluyendo Mejor Película.
             </p>
 
             <!-- Aquí esta el director de la película Todo a la vez en todas partes-->
-            <div class="DirectorPelicula text-centers">
-                <h2 class="TituloDirector text-center mt-5"> Director </h2>
-                <img src="IMG/Dan Kwan.jpg" alt="Dan Kwan" width="250" height="300">
-                <p>Esta película esta dirigida por Dan Kwan.</p>
+            <h2 class ="TituloDirector text-center mt-5"> Director</h2>
+            <div class="Container">
+                <div class="col d-flex justify-content-center text-center">
+                    <div class="p-3 border bg-light DirectorPelicula">
+                        <figure class="figure">
+                            <img src="IMG/Dan Kwan.jpg" class="figure-img img-fluid rounded " alt="Dan Kwan">
+                            <figcaption class="figure-caption">Esta película esta dirigida por Dan Kwan</figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
 
             <!-- Aquí esta el reparto-->
-            <h2 class="TituloReparto mt-5"> Reparto </h2>
+            <h2 class="TituloReparto text-center align-self-center mt-5"> Reparto </h2> 
             <ul>
-                <div class="RepartoPeliculas">
+                <div class="Container RepartoPelicula">
+                    <div class="row d-flex justify-content-md-center ">
+                        <!-- Primero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Michelle Yeoh.jpg" class="figure-img img-fluid rounded " alt="Michelle Yeoh">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Michelle Yeoh</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Evelyn Wang</figcaption>
+                                </figure>
+                            </div>    
+                        </div>
 
-                    <!-- Primero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Michelle Yeoh</li>
-                        <p>Como Evelyn Wang, una mujer chino-estadounidense que existe en múltiples universos.</p>
-                        <img src="IMG/Michelle Yeoh.jpg" alt="Michelle Yeoh" width="250" height="300">
-                    </div>
-                    
-                    <!-- Segundo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Ke Huy Quan</li>
-                        <p>Como Waymond Wang, esposo de Evelyn.</p>
-                        <img src="IMG/Ke Huy Quan.jpg" alt="Ke Huy Quan" width="250" height="300">
-                    </div>
-
-                    <!-- Tercero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Stephanie Hsu</li>
-                        <p>Como Joy Wang / Jobu Tupaki, hija de Evelyn.</p>
-                        <img src="IMG/Stephanie Hsu.jpg" alt="Stephanie Hsu" width="250" height="300">
-                    </div>
-
-                    <!-- Cuarto del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>James Hong</li>
-                        <p>Como Gong Gong, el padre de Evelyn.</p>
-                        <img src="IMG/James Hong.jpg" alt="James Hong" width="250" height="300">
-                    </div>
-
-                    <!-- Quinto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Jamie Lee Curtis</li>
-                        <p>Como Deirdre Beaubeirdra, inspectora del IRS.</p>
-                        <img src="IMG/Jamie Lee Curtis.jpg" alt="Jamie Lee Curtis" width="250" height="300">
-                    </div>
-                    
-                    <!-- Sexto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Jenny Slate</li>
-                        <p>Como  Big Nose.</p>
-                        <img src="IMG/Jenny Slate.jpg" alt="Jenny Slate" width="250" height="300">
-                    </div>
-
-                    <!-- Septimo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Harry Shum Jr</li>
-                        <p>Como Chad.</p>
-                        <img src="IMG/Harry Shum Jr.jpg" alt="Harry Shum Jr" width="250" height="300">
+                        <!-- Segundo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Ke Huy Quan.jpg" class="figure-img img-fluid rounded " alt="Ke Huy Quan">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Ke Huy Quan</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Waymond Wang</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Tercero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Stephanie Hsu.jpg" class="figure-img img-fluid rounded " alt="Stephanie Hsu">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Stephanie Hsu</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Joy Wang</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Cuarto del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/James Hong.jpg" class="figure-img img-fluid rounded " alt="James Hong" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">James Hong</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Gong Gong</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Octavo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Tallie Medel</li>
-                        <p>Como Becky, la novia de Joy.</p>
-                        <img src="IMG/Tallie Medel.jpg" alt="Tallie Medel" width="250" height="300">
+                    <div class="row d-flex justify-content-md-center">
+
+                        <!-- Quinto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Jamie Lee Curtis.jpg" class="figure-img img-fluid rounded " alt="Jamie Lee Curtis" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jamie Lee Curtis</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Deirdre Beaubeirdra.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                       
+                        <!-- Sexto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Jenny Slate.jpg" class="figure-img img-fluid rounded " alt="Jenny Slate">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jenny Slate</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Big Nose.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Septimo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Harry Shum Jr.jpg" class="figure-img img-fluid rounded " alt="Harry Shum Jr">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Harry Shum Jr</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Chad.</figcaption>
+                                  </figure>                  
+                            </div>
+                        </div>
+
+                        <!-- Octava del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Tallie Medel.jpg" class="figure-img img-fluid rounded " alt="Tallie Medel">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Tallie Medel</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Becky.</figcaption>
+                                </figure>       
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ul>
@@ -664,80 +747,122 @@
 
         <div>
             <!-- Aqui tenemos la septima película The black Phone con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">The Black Phone</h1>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">7</b> The Black Phone</h1>
             
-            <p>
+            <p class="m-2">
                 <strong>The Black Phone</strong>es una película estadounidense de terror sobrenatural.se trata de una adaptación del cuento homónimo de <strong>Joe Hill</strong>. Está protagonizada por <strong>Mason Thames</strong> en el papel de un niño secuestrado que puede comunicarse con las anteriores víctimas de su secuestrador, interpretado por <strong>Ethan Hawke</strong>.
                 En enero de 2020, <strong>Derrickson</strong> anunció su salida de la dirección de <strong>Doctor Strange in the Multiverse of Madness </strong> debido a diferencias creativas con <strong>Marvel Studios.</strong> Como resultado, decidió asociarse con Cargill para realizar <strong>The Black Phone.</strong> El largometraje se anunció en octubre de 2020 y el rodaje comenzó en febrero de 2021.
                 <strong>The Black Phone</strong> tuvo su estreno mundial en el <strong>Fantastic Fest</strong> el 25 de septiembre de 2021. Estaba previsto que Universal Pictures se estrene en cines el 4 de febrero de 2022, pero debido a falta de tiempo acabó siendo atrasada al 24 de junio de 2022. La película recibió críticas generalmente positivas, con elogios por su fidelidad al material original, la dirección de Derrickson y la actuación de Hawke.
             </p>
 
             <!-- Aquí esta el director de la película The Black Phone-->
-            <div class="DirectorPelicula text-centers">
-                <h2 class="mt-5"> Director </h2>
-                <img src="IMG/Scott Derrickson.jpg" alt="Scott Derrickson" width="250" height="300">
-                <p>Esta película esta dirigida por Scott Derrickson.</p>
+            <h2 class ="TituloDirector text-center mt-5"> Director</h2>
+            <div class="Container">
+                <div class="col d-flex justify-content-center text-center">
+                    <div class="p-3 border bg-light DirectorPelicula">
+                        <figure class="figure">
+                            <img src="IMG/Scott Derrickson.jpg" class="figure-img img-fluid rounded " alt="Scott Derrickson">
+                            <figcaption class="figure-caption">Esta película esta dirigida por Scott Derrickson</figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
 
             <!-- Aquí esta el reparto-->
-            <h2 class="TituloReparto mt-5"> Reparto </h2>
+            <h2 class="TituloReparto text-center align-self-center mt-5"> Reparto </h2> 
             <ul>
-                <div class="Repartoeliculas">
+                <div class="Container RepartoPelicula">
+                    <div class="row d-flex justify-content-md-center ">
+                        <!-- Primero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Mason Thames.jpg" class="figure-img img-fluid rounded " alt="Mason Thames">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Mason Thames</figcaption>
+                                    <figcaption class="figure-caption">Finney Blake</figcaption>
+                                </figure>
+                            </div>    
+                        </div>
 
-                    <!-- Primero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Mason Thames</li>
-                        <p>Como Finney Blake: El hermano de Gwen y el hijo del Sr. Blake.</p>
-                        <img src="IMG/Mason Thames.jpg" alt="Mason Thames" width="250" height="300">
-                    </div>
-                    
-                    <!-- Segundo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Madeleine McGraw</li>
-                        <p>Como Gwendolyn Blake: La hermana de Finney y la hija del Sr. Blake.</p>
-                        <img src="IMG/Madeleine McGraw.jpg" alt="Madeleine McGraw" width="250" height="300">
-                    </div>
-
-                    <!-- Tercero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Ethan Hawke</li>
-                        <p>Como Albert / "El Raptor": Un secuestrador de niños y asesino en serie.</p>
-                        <img src="IMG/Ethan Hawke.jpg" alt="Ethan Hawke" width="250" height="300">
-                    </div>
-
-                    <!-- Cuarto del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Jeremy Davies</li>
-                        <p>Como el Terrence Blake: El padre alcohólico de Finney y Gwen.</p>
-                        <img src="IMG/Jeremy Davies.jpg" alt="Jeremy Davies" width="250" height="300">
-                    </div>
-
-                    <!-- Quinto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>James Ransone</li>
-                        <p>Como Max: El hermano de Albert "El Raptor".</p>
-                        <img src="IMG/James Ransone.jpg" alt="James Ransone" width="250" height="300">
-                    </div>
-                    
-                    <!-- Sexto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>E. Roger Mitchell</li>
-                        <p>Como el detective Wright.</p>
-                        <img src="IMG/E. Roger Mitchell.jpg" alt="E. Roger Mitchell" width="250" height="300">
-                    </div>
-
-                    <!-- Septimo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Troy Rudeseal</li>
-                        <p>Como Detective Miller.</p>
-                        <img src="IMG/Troy Rudeseal.jpg" alt="Troy Rudeseal" width="250" height="300">
+                        <!-- Segundo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Madeleine McGraw.jpg" class="figure-img img-fluid rounded " alt="Madeleine McGraw">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Madeleine McGraw</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Gwendolyn Blake</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Tercero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Ethan Hawke.jpg" class="figure-img img-fluid rounded " alt="Ethan Hawke">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Ethan Hawke</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Albert / "El Raptor"</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Cuarto del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Jeremy Davies.jpg" class="figure-img img-fluid rounded " alt="Jeremy Davies" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jeremy Davies</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Terrence Blake</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Octavo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Miguel Cazarez Mora</li>
-                        <p>Como Robin Arellano.</p>
-                        <img src="IMG/Miguel Cazarez Mora.jpg" alt="Miguel Cazarez Mora" width="250" height="300">
+                    <div class="row d-flex justify-content-md-center">
+
+                        <!-- Quinto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/James Ransone.jpg" class="figure-img img-fluid rounded " alt="James Ransone" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">James Ransone</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Deirdre Beaubeirdra.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                       
+                        <!-- Sexto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/E. Roger Mitchell.jpg" class="figure-img img-fluid rounded " alt="E. Roger Mitchell">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">E. Roger Mitchell</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">detective Wright.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Septimo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Troy Rudeseal.jpg" class="figure-img img-fluid rounded " alt="Troy Rudeseal">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Troy Rudeseal</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Detective Miller.</figcaption>
+                                  </figure>                  
+                            </div>
+                        </div>
+
+                        <!-- Octava del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Miguel Cazarez Mora.jpg" class="figure-img img-fluid rounded " alt="Miguel Cazarez Mora">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Miguel Cazarez Mora</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Robin Arellano.</figcaption>
+                                </figure>       
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ul>
@@ -745,78 +870,119 @@
         
         <div>
             <!-- Aqui tenemos la octava película Nope con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">Nope</h1>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">8</b> Nope</h1>
             
-            <p>
+            <p class="m-2">
                 Nope es una película de terror y ciencia ficción estadounidense de 2022, Está protagonizada por Daniel Kaluuya, Keke Palmer, Steven Yeun, Michael Wincott y Brandon Perea y sigue a dos hermanos propietarios de un rancho que intentan capturar evidencia de un objeto volador no identificado. La filmación tuvo lugar durante el otoño de 2021 en el norte del condado de Los Ángeles y terminó en noviembre. Se rumoreaba que el título era un acrónimo de "Not Of Planet Earth" o "Not Our Planet Earth" según el póster de la película, pero Peele reveló más tarde que el título se refiere a la reacción que esperaba provocar en el público.
             </p>
 
             <!-- Aquí esta el director de la película Nope-->
-            <div class="DirectorPelicula text-center">
-                <h2 class="mt-5"> Director </h2>
-                <img src="IMG/Jordan Peele.jpg" alt="Jordan Peele" width="250" height="300">
-                <p>Esta película esta dirigida por Jordan Peele.</p>
+            <h2 class ="TituloDirector text-center mt-5"> Director</h2>
+            <div class="Container">
+                <div class="col d-flex justify-content-center text-center">
+                    <div class="p-3 border bg-light DirectorPelicula">
+                        <figure class="figure">
+                            <img src="IMG/Jordan Peele.jpg" class="figure-img img-fluid rounded " alt="Jordan Peele">
+                            <figcaption class="figure-caption">Esta película esta dirigida por Jordan Peele</figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
-
             <!-- Aquí esta el reparto-->
-            <h2 class="TituloReparto mt-5"> Reparto </h2>
+            <h2 class="TituloReparto text-center align-self-center mt-5"> Reparto </h2> 
             <ul>
-                <div class="RepartoPeliculas">
+                <div class="Container RepartoPelicula">
+                    <div class="row d-flex justify-content-md-center ">
+                        <!-- Primero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Daniel Kaluuya.jpg" class="figure-img img-fluid rounded " alt="Daniel Kaluuya">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Daniel Kaluuya</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Otis Jr.</figcaption>
+                                </figure>
+                            </div>    
+                        </div>
 
-                    <!-- Primero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Daniel Kaluuya</li>
-                        <p>Como Otis Jr. "OJ" Haywood, hijo de Otis.</p>
-                        <img src="IMG/Daniel Kaluuya.jpg" alt="Daniel Kaluuya" width="250" height="300">
-                    </div>
-                    
-                    <!-- Segundo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Keke Palmer</li>
-                        <p>Como Emerald "Em" Haywood, hija de Otis.</p>
-                        <img src="IMG/Keke Palmer.jpg" alt="Keke Palmer" width="250" height="300">
-                    </div>
-
-                    <!-- Tercero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Steven Yeun</li>
-                        <p>Como Ricky "Jupe" Park, ex niño actor y propietario/creador del parque temático "Jupiter's Claim".</p>
-                        <img src="IMG/Steven Yeun.jpg" alt="Steven Yeun" width="250" height="300">
-                    </div>
-
-                    <!-- Cuarto del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Jacob Kim</li>
-                        <p>Como Young Ricky "Jupe" Park, quien interpreta a Mikey Houston en Gordy's Home.</p>
-                        <img src="IMG/Jacob Kim.jpg" alt="Jacob Kim" width="250" height="300">
-                    </div>
-
-                    <!-- Quinto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Brandon Perea</li>
-                        <p>Como Angel Torres, un vendedor de tecnología en Fry's Electronics.</p>
-                        <img src="IMG/Brandon Perea.jpg" alt="Brandon Perea" width="250" height="300">
-                    </div>
-                    
-                    <!-- Sexto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Michael Wincott</li>
-                        <p>Como Antlers Holst, un reconocido director de fotografía.</p>
-                        <img src="IMG/Michael Wincott.jpg" alt="Michael Wincott" width="250" height="300">
-                    </div>
-
-                    <!-- Septimo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Wrenn Schmidt</li>
-                        <p>Como Amber Park, la esposa de Jupe.</p>
-                        <img src="IMG/Wrenn Schmidt.jpg" alt="Wrenn Schmidt" width="250" height="300">
+                        <!-- Segundo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Keke Palmer.jpg" class="figure-img img-fluid rounded " alt="Keke Palmer">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Keke Palmer</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Emerald "Em"</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Tercero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Steven Yeun.jpg" class="figure-img img-fluid rounded " alt="Steven Yeun">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Steven Yeun</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje"> Ricky "Jupe" Park"</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Cuarto del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Jacob Kim.jpg" class="figure-img img-fluid rounded " alt="Jacob Kim" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Jacob Kim</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Young Ricky</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Octavo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Keith David</li>
-                        <p>Como Otis Haywood Sr., el propietario del Hollywood Horses Ranch de Haywood.</p>
-                        <img src="IMG/Keith David.jpg" alt="Keith David" width="250" height="300">
+                    <div class="row d-flex justify-content-md-center">
+
+                        <!-- Quinto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Brandon Perea.jpg" class="figure-img img-fluid rounded " alt="Brandon Perea" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Brandon Perea</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Angel Torres</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Sexto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Michael Wincott.jpg" class="figure-img img-fluid rounded " alt="Michael Wincott">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Michael Wincott</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Antlers Holst.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Septimo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Wrenn Schmidt.jpg" class="figure-img img-fluid rounded " alt="Wrenn Schmidt">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Wrenn Schmidt</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Amber Park</figcaption>
+                                    </figure>                  
+                            </div>
+                        </div>
+
+                        <!-- Octava del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Keith David.jpg" class="figure-img img-fluid rounded " alt="Keith David">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Keith David</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Otis Haywood Sr</figcaption>
+                                </figure>       
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ul>
@@ -824,78 +990,119 @@
 
         <div>
             <!-- Aqui tenemos la novena película Black Panther con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">Black Panther: Wakanda Forever</h1>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">9</b> Black Panther: Wakanda Forever</h1>
             
-            <p>
+            <p class="m-2">
                 <strong>Black Panther: Wakanda Forever</strong> es una película de superhéroes basada en el personaje Pantera Negra propiedad de Marvel Comics. Producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures, es la secuela de la película Black Panther (2018) y la película número 30 del Universo cinematográfico de Marvel (UCM).Los planes para la película cambiaron en agosto de 2020 cuando la estrella de Black Panther, Chadwick Boseman, falleció de cáncer de colon, y Marvel decidió no reemplazarlo en su papel de T'Challa. Se confirmó que otros miembros principales del elenco de la primera película regresarían en noviembre, y el título se anunció en mayo de 2021.
             </p>
 
             <!-- Aquí esta el director de la película Black Panther-->
-            <div class="DirectorPelicula text-center">
-                <h2 class="TituloDirector mt-5"> Director </h2>
-                <img src="IMG/Ryan Coogler.jpg" alt="Ryan Coogler" width="250" height="300">
-                <p>Esta película esta dirigida por Ryan Coogler.</p>
+            <h2 class ="TituloDirector text-center mt-5"> Director</h2>
+            <div class="Container">
+                <div class="col d-flex justify-content-center text-center">
+                    <div class="p-3 border bg-light DirectorPelicula">
+                        <figure class="figure">
+                            <img src="IMG/Ryan Coogler.jpg" class="figure-img img-fluid rounded " alt="Ryan Coogler">
+                            <figcaption class="figure-caption">Esta película esta dirigida por Ryan Coogler</figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
-
             <!-- Aquí esta el reparto-->
-            <h2 class="TituloReparto mt-5"> Reparto </h2>
+            <h2 class="TituloReparto text-center align-self-center mt-5"> Reparto </h2> 
             <ul>
-                <div class="ActorPeliculas">
+                <div class="Container RepartoPelicula">
+                    <div class="row d-flex justify-content-md-center ">
+                        <!-- Primero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Letitia Wright.jpg" class="figure-img img-fluid rounded " alt="Letitia Wright">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Letitia Wright</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Shuri.</figcaption>
+                                </figure>
+                            </div>    
+                        </div>
 
-                    <!-- Primero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Letitia Wright</li>
-                        <p>Como Shuri / Black Panther: La princesa de Wakanda que diseña nueva tecnología para Wakanda.</p>
-                        <img src="IMG/Letitia Wright.jpg" alt="Letitia Wright" width="250" height="300">
-                    </div>
-                    
-                    <!-- Segundo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Lupita Nyong'o</li>
-                        <p>Como Nakia: Una miembro de los Perros de Guerra, una espía encubierta de Wakanda, de la Tribu del Río.</p>
-                        <img src="IMG/upita Nyong'o.jpg" alt="upita Nyong'o" width="250" height="300">
-                    </div>
-
-                    <!-- Tercero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Danai Gurira</li>
-                        <p>Como Okoye: La jefa de la Dora Milaje, las fuerzas especiales de Wakanda.</p>
-                        <img src="IMG/Danai Gurira.jpg" alt="Danai Gurira" width="250" height="300">
-                    </div>
-
-                    <!-- Cuarto del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Dominique Thorne</li>
-                        <p>Como Riri Williams / Ironheart: Una inventora genio que crea una armadura que rivaliza con la armadura de Iron Man.</p>
-                        <img src="IMG/Dominique Thorne.jpg" alt="Dominique Thorne" width="250" height="300">
-                    </div>
-
-                    <!-- Quinto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Winston Duke</li>
-                        <p>Como M'Baku: Un poderoso y despiadado guerrero que es el líder de la tribu montañesa de Wakanda, los Jabari.</p>
-                        <img src="IMG/Winston Duke.jpg" alt="Winston Duke" width="250" height="300">
-                    </div>
-                    
-                    <!-- Sexto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Angela Bassett</li>
-                        <p>Como Ramonda: La Reina Madre de Wakanda que está de duelo por la muerte de su hijo T'Challa.</p>
-                        <img src="IMG/Angela Bassett.jpg" alt="Angela Bassett" width="250" height="300">
-                    </div>
-
-                    <!-- Septimo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Ténoch Huerta</li>
-                        <p>Como Namor: El rey de Talokán, una antigua civilización de personas que habitan bajo el agua.</p>
-                        <img src="IMG/Ténoch Huerta.jpg" alt="Ténoch Huerta" width="250" height="300">
+                        <!-- Segundo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Keke Palmer.jpg" class="figure-img img-fluid rounded " alt="Lupita Nyong'o">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Lupita Nyong'o</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Emerald "Em"</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Tercero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Danai Gurira.jpg" class="figure-img img-fluid rounded " alt="Danai Gurira">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Danai Gurira</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje"> Okoye</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Cuarto del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Dominique Thorne.jpg" class="figure-img img-fluid rounded " alt="Dominique Thorne" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Dominique Thorne</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Riri Williams</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Octavo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Florence Kasumba</li>
-                        <p>Como Ayo: Miembro y segunda al mando de la Dora Milaje.</p>
-                        <img src="IMG/Florence Kasumba.jpg" alt="Florence Kasumba" width="250" height="300">
+                    <div class="row d-flex justify-content-md-center">
+
+                        <!-- Quinto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Winston Duke.jpg" class="figure-img img-fluid rounded " alt="Winston Duke" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Winston Duke</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">M'Baku</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Sexto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Angela Bassett.jpg" class="figure-img img-fluid rounded " alt="Angela Bassett">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Angela Bassett</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Ramonda.</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Septimo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Ténoch Huerta.jpg" class="figure-img img-fluid rounded " alt="Ténoch Huerta">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Ténoch Huerta</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Namor</figcaption>
+                                    </figure>                  
+                            </div>
+                        </div>
+
+                        <!-- Octava del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Florence Kasumba.jpg" class="figure-img img-fluid rounded " alt="Florence Kasumba">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Florence Kasumba</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Ayo</figcaption>
+                                </figure>       
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ul>
@@ -903,85 +1110,127 @@
 
         <div>
             <!-- Aqui tenemos la decima película Turning Red con el titulo y un breve resumen-->
-            <h1 class="TituloPelicula text-center">Turning Red</h1>
+            <h1 class="TituloPelicula text-center mt-5"><b class="NumeroTitulo">10</b> Turning Red</h1>
             
-            <p>
+            <p class="m-2">
                 <strong>Turning Red </strong> es una película <strong>estadounidense de comedia, de aventuras</strong> y que trata a la pubertad de una manera metafórica, animada por ordenador, producida por <strong>Pixar Animation Studios</strong> y lanzada por <strong>Walt Disney Pictures</strong>. <strong>Red</strong> se estrenó en <strong>China</strong> el 18 de febrero de 2022, y en <strong>Disney+ en Estados Unidos</strong> y demás países con la plataforma el 11 de marzo de 2022 y 10 de marzo de 2022, siendo estrenada en cines en países que no disponen de la plataforma. A mediados de marzo del año 2002, Meilin "Mei" Lee es una niña canadiense de ascendencia china de 13 años que vive en la ciudad de <strong>Toronto.</strong> Es una estudiante prodigio y tiene un séquito de amigas cercanas compuesto por <strong>Miriam, Priya y Abby</strong>.           
             </p>
 
             <!-- Aquí esta el director de la película Turning Red-->
-            <div class="DirectorPelicula text-center">
-                <h2 class="TituloDirector mt-5"> Director </h2>
-                <img src="IMG/Domee Shi.jpg" alt="Domee Shi" width="250" height="300">
-                <p>Esta película esta dirigida por Domee Shi</p>
+            <h2 class ="TituloDirector text-center mt-5"> Director</h2>
+            <div class="Container">
+                <div class="col d-flex justify-content-center text-center">
+                    <div class="p-3 border bg-light DirectorPelicula">
+                        <figure class="figure">
+                            <img src="IMG/Domee Shi.jpg" class="figure-img img-fluid rounded " alt="joseph kosinski">
+                            <figcaption class="figure-caption">Esta película esta dirigida por Domee Shi</figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
 
             <!-- Aquí esta el reparto-->
-            <h2 class="TituloReparto mt-5"> Reparto </h2>
+            <h2 class="TituloReparto text-center align-self-center mt-5"> Reparto </h2> 
             <ul>
-                <div class="RepartoPeliculas">
+                <div class="Container RepartoPelicula">
+                    <div class="row d-flex justify-content-md-center ">
+                        <!-- Primero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Rosalie Chiang.jpg" class="figure-img img-fluid rounded " alt="Rosalie Chiang">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Rosalie Chiang</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Meilin "Mei" Lee</figcaption>
+                                </figure>
+                            </div>    
+                        </div>
 
-                    <!-- Primero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Meilin "Mei" Lee</li>
-                        <p>Como Rosalie Chiang.</p>
-                        <img src="IMG/Rosalie Chiang.jpg" alt="Rosalie Chiang" width="250" height="300">
-                    </div>
-                    
-                    <!-- Segundo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Ming Lee</li>
-                        <p>Como Sandra Oh.</p>
-                        <img src="IMG/Sandra Oh.jpg" alt="Sandra Oh" width="250" height="300">
-                    </div>
-
-                    <!-- Tercero del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Miriam Wexler</li>
-                        <p>Como Ava Morse.</p>
-                        <img src="IMG/Ava Morse.jpg" alt="Ava Morse" width="250" height="300">
-                    </div>
-
-                    <!-- Cuarto del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Abby Park</li>
-                        <p>Como Hyein Park.</p>
-                        <img src="IMG/Hyein Park.jpg" alt="Hyein Park" width="250" height="300">
-                    </div>
-
-                    <!-- Quinto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Priya Dewan</li>
-                        <p>Como Maitreyi Ramakrishnan.</p>
-                        <img src="IMG/Maitreyi Ramakrishnan.jpg" alt="Maitreyi Ramakrishnan" width="250" height="300">
-                    </div>
-                    
-                    <!-- Sexto del reparto -->
-                    <div class="ActorPeliculas">
-                        <li>Jin Lee</li>
-                        <p>Como Orion Lee.</p>
-                        <img src="IMG/Orion Lee.jpg" alt="Orion Lee" width="250" height="300">
-                    </div>
-
-                    <!-- Septimo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Abuela de Mei</li>
-                        <p>Como Wai Ching Ho.</p>
-                        <img src="IMG/Wai Ching Ho.jpg" alt="Wai Ching Ho" width="250" height="300">
+                        <!-- Segundo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Sandra Oh.jpg" class="figure-img img-fluid rounded " alt="Sandra Oh">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Sandra Oh</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Ming Lee</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Tercero del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Ava Morse.jpg" class="figure-img img-fluid rounded " alt="Ava Morse">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Ava Morse</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje"> Miriam Wexler</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <!-- Cuarto del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Hyein Park.jpg" class="figure-img img-fluid rounded " alt="Hyein Park" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Hyein Park</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Abby Park</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Octavo del reparto-->
-                    <div class="ActorPeliculas">
-                        <li>Tyler Nguyen-Baker</li>
-                        <p>Como Tristan Allerick.</p>
-                        <img src="IMG/Tristan Allerick.jpg" alt="Tristan Allerick" width="250" height="300">
+                    <div class="row d-flex justify-content-md-center">
+
+                        <!-- Quinto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Maitreyi Ramakrishnan.jpg" class="figure-img img-fluid rounded " alt="Maitreyi Ramakrishnan" >
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Maitreyi Ramakrishnan</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Priya Dewan</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Sexto del reparto -->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Orion Lee.jpg" class="figure-img img-fluid rounded " alt="Orion Lee">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Orion Lee</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Jin Lee</figcaption>
+                                </figure> 
+                            </div>
+                        </div>
+                        
+                        <!-- Septimo del reparto-->
+                        <div class="col m-2 ">
+                            <div class="p-3 border bg-light ActorPelicula">
+                                <figure class="figure">
+                                    <img src="IMG/Wai Ching Ho.jpg" class="figure-img img-fluid rounded " alt="Wai Ching Ho">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Wai Ching Ho</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Abuela de Mei</figcaption>
+                                    </figure>                  
+                            </div>
+                        </div>
+
+                        <!-- Octava del reparto-->
+                        <div class="col m-2 ">
+                            <div class="ActorPelicula p-3 border bg-light">
+                                <figure class="figure">
+                                    <img src="IMG/Tristan Allerick.jpg" class="figure-img img-fluid rounded " alt="Tristan Allerick">
+                                    <figcaption class="figure-caption TituloNombredirector mt-1">Tristan Allerick</figcaption>
+                                    <figcaption class="figure-caption TituloNombrePersonaje">Tyler Nguyen-Baker</figcaption>
+                                </figure>       
+                            </div>
+                        </div>
                     </div>
                 </div>
             </ul>
         </div>
     </div>
 
-    <div class="Footer">
+    <div class="Footer mt-4">
         <footer>
             <div class="row text-center ">
                 <div class="col mt-3">
@@ -1023,7 +1272,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <p class="mb-1">Esta página esta hecha por <b class="NombreTeam">TEAM SCALDON</b> <img src="../IMG/Escaldado.png" alt="ESCALDON" width="30" height="30">
+                <p class="">Esta página esta hecha por <b class="NombreTeam">TEAM SCALDON</b> <img src="../IMG/Escaldado.png" alt="ESCALDON" width="30" height="30">
                 </p>
             </div>
             
