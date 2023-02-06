@@ -13,7 +13,7 @@ ul{
 }
 nav{
     width: 100% !important;
-    background-color: black !important; 
+    background-color: #3B4346 !important; 
     background-image: url(imagenes/002f0825-efc1-489c-83cc-6a396b94ad08.jfif) !important;
     background-repeat: no-repeat !important;
     background-size: 100px !important;
@@ -30,6 +30,9 @@ nav li a{
 }
 nav > ul > li{
     float: left !important;
+}
+nav li a:hover{
+    color:#ffffff !important;
 }
 #Contenido div{
     border: 1px solid #3B4346 !important;
@@ -49,7 +52,7 @@ h3{
 #Contenido p{
     background-color: white !important;
     border: 1px solid black !important;
-    height: 50px !important;
+    height: 75px !important;
     overflow: auto !important;
     padding: 5px !important;
     border-radius: 10px !important;
