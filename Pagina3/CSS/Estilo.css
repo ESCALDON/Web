@@ -122,3 +122,27 @@ footer{
   font-family: 'Unbounded', cursive;
   color:#ffffff;
 }
+
+nav{
+  width: 100% !important;
+  background-color: #3B4346 !important; 
+  background-image: url(../../IMG/002f0825-efc1-489c-83cc-6a396b94ad08.jfif) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100px !important;
+  margin-bottom: 10px !important;
+  padding-left: 100px !important;
+  height: 100px !important;
+}
+nav li a{
+  color:#9FBDF2 !important;
+  text-decoration: none !important;
+  display: block !important;
+  padding: 10px 15px !important;
+  margin-top: 30px !important;
+}
+nav li a:hover{
+  color: #ffffff !important;
+}
+nav > ul > li{
+  float: left !important;
+}
